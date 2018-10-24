@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width,initial-scale = 1.0,maximum-scale = 1.0,user-scalable = 0"/>
+  <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+
+
+<!-- 立方体 -->
+
+
+<div class="box">
+  <ul class="base">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="base">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="base">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="base">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="point">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul> 
+</div>
+
+
+<style>
+ *{
+  margin: 0;
+  padding: 0;
+}
+html.body{
+  height: 100%;
+}
+ul{
+  list-style: none;
+}
+
+.box{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 400px auto;
+}
+
+.base {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.base {
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform :rotateX(-30deg) rotateY(45deg);
+  transition: all 1s;
+}
+.base:nth-of-type(1){
+  display: none;
+}
+.base:nth-of-type(2){
+  transform: translate3d(-70px,0px,0px) rotateX(-30deg) rotateY(45deg);
+}
+.base:nth-of-type(3){
+  transform: translate3d(70px,0,0) rotateX(-30deg) rotateY(45deg);
+}
+.base:nth-of-type(4){
+  transform: translate3d(0,-122px,0) rotateX(-30deg) rotateY(45deg);
+}
+
+.base:nth-of-type(4) li:nth-of-type(1),
+.base:nth-of-type(4) li:nth-of-type(3){
+  border-bottom-width: 0;
+}
+.base:nth-of-type(4) li:nth-of-type(6){
+  border-left-width: 0;
+}
+
+
+.base li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+  color: black;
+  box-sizing: border-box;
+  border:2px solid #535353;
+}
+
+.base li:nth-child(1){
+  transform: rotateX(0deg) translateZ(50px);
+  background-color: rgba(255,255,255,1);
+  border-top-width: 0;
+}
+.base li:nth-child(2){
+  transform: rotateX(-90deg) translateZ(50px);
+  background-color: rgba(255,255,255,1);
+}
+.base li:nth-child(3){
+  transform: rotateY(-90deg) translateZ(50px);
+  background-color: rgba(255,255,255,1);
+  border-top-width: 0;
+  border-right-width: 0;
+}
+.base li:nth-child(4){
+  transform: rotateX(90deg) translateZ(50px);
+  background-color: rgba(255,255,255,1);
+}
+.base li:nth-child(5){
+  transform: rotateY(90deg) translateZ(50px);
+  background-color: rgba(255,255,255,1);
+}
+.base li:nth-child(6){
+  transform: translateZ(-50px);
+  background-color: rgba(255,255,255,1);
+}
+
+.point li{
+  width: 20px;
+  height: 20px;
+  background: #535353;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+.point li:nth-of-type(1){
+  left: -98px;
+  top: -2px;
+}
+.point li:nth-of-type(2){
+  left: -32px;
+  top: -36px;
+}
+.point li:nth-of-type(3){
+  left: 40px;
+  top: -2px;
+}
+.point li:nth-of-type(4){
+  left: -32px;
+  top: 32px;
+}
+.point li:nth-of-type(5){
+  left: 112px;
+  top: -36px;
+}
+.point li:nth-of-type(6){
+  left: 178px;
+  top: -2px;
+}
+.point li:nth-of-type(7){
+  left: 112px;
+  top: 32px;
+}
+.point li:nth-of-type(8){
+  left: 40px;
+  top: -90px;
+}
+.point li:nth-of-type(9){
+  left: 40px;
+  top: 84px;
+} 
+</style>
+</body>
+</html>

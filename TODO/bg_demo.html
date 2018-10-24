@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    *{
+  margin: 0;
+  padding: 0;
+}
+
+
+.box{
+  width: 100%;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+}
+.absolute{
+  position: absolute;
+}
+#bg{
+  z-index: 1;
+  width: 110%;
+  height: 110%;
+}
+.con{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+#cat{
+  z-index: 3;
+}
+#buliding{
+  z-index: 4;
+}
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <img id="bg" class="absolute" src="github/field.png">
+    <div class="con">
+      <img id="cat" class="absolute" src="github/cat.png">
+      <img id="buliding" class="absolute" src="github/buliding_1.png">
+    </div>
+  </div>  
+
+<script>
+  
+var obj = {
+  imgData: { // 要移动的对象
+    bg:{
+      top: -20,
+      left: -20,
+      scale:0.06,
+      el: document.querySelector('#bg')
+    },
+    cat:{
+      top: 20,
+      left: 0,
+      scale:0.06,
+      el: document.querySelector('#cat')
+    },
+    building: {
+      top: 79,
+      left: 884,
+      scale: -0.03,
+      el: document.querySelector('#buliding')
+    },
+  },
+  rate_w: 0,
+    rate_h: 0,//偏移的比例
+    field_width: 1680,
+    field_height: 370,//背景高度和宽度
+    init: function() {//初始化加载方法
+    this.setRateWH();
+    this.placeImg();
+    this.attachMouseEvent();
+  },
+  setRateWH: function() {//计算偏移比的方法
+        var window_width = document.body.clientWidth;
+        var window_height = document.body.clientHeight;
+        this.rate_w = this.field_width/window_width;
+        this.rate_h = this.field_height/window_height;
+    },
+    placeImg: function() {//初始化位置信息
+    for(i in this.imgData){//遍历imageData 对象
+      var left = this.imgData[i].left;
+      var top = this.imgData[i].top;    
+      this.imgData[i].el.style.left = left + 'px';
+      this.imgData[i].el.style.top = top + 'px';
+    }
+
+    },
+    attachMouseEvent: function() {
+        var that = this;
+        document.body.onmousemove = function(e){
+          that.picMove(e.pageX,e.pageY);
+        }
+    },
+    picMove: function(pageX,pageY) {//鼠标移动时重新画图的方法
+        for(i in this.imgData) {
+            var offer_w = this.rate_w * pageX * this.imgData[i].scale;
+          var offer_h = this.rate_h * pageY * this.imgData[i].scale;
+            //定义 left和top,下面画图时给参数定位
+            var left = this.field_width/100 - offer_w + this.imgData[i].left; 
+            var top = this.field_height/100 - offer_h + this.imgData[i].top;
+            this.imgData[i].el.style.left = left + 'px';
+            this.imgData[i].el.style.top = top + 'px';
+    }
+    }
+}
+
+window.onload = function() {
+  //只调用github404的init方法 封装了数据
+  obj.init();
+}
+</script>
+</body>
+</html>
