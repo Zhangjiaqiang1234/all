@@ -262,7 +262,6 @@
 .ad-right li{
 	width: 100%;
 	box-sizing: border-box;
-	border:1px solid #ddd;
 	position: relative;
 }
 .pc .ad-right li{
@@ -284,6 +283,14 @@
 	top: 0;
 	bottom: 0;
 	margin: auto;
+}
+.phone .ad-right li.one,
+.phone .ad-right li.two{
+	border-bottom: 1px dashed #C6C6C6; 
+}
+.phone .ad-right li.one,
+.phone .ad-right li.three{
+	border-right: 1px dashed #C6C6C6; 
 }
 
 .ad-right-logo{
@@ -333,4 +340,133 @@
 	width: 100%;
 	box-sizing: border-box;
 	padding: 0 .3rem;
+}
+.advan-title{
+	text-align: center;
+	font-weight: bold;
+	color: #393939;
+	font-size: 28px;
+	position: relative;
+	margin-top: 1.4rem;
+}
+.advan-title i{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -.26rem;
+	width: .5rem;
+	height: .1rem;
+	background: #797979;
+	margin: auto;
+}
+.phone .advan-title{
+	font-size: 14px;
+	margin-top: 1.1rem;
+}
+.hatch-title{
+	text-align: center;
+	font-weight: bold;
+	color: #535353;
+	font-size: 28px;
+	position: relative;
+	margin-top: 1.3rem;
+}
+.phone .hatch-title{
+	font-size: 14px;
+	margin-top: .9rem;
+}
+.hatch{
+	height: auto;
+	margin-top: .5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hatch-mid{
+	padding-top: .06rem;
+}
+.hatch-mid img{
+	display: block;
+	margin: 0 auto;
+}
+.phone .hatch-mid{
+	margin: 0 auto;
+}
+.phone .hatch-mid img{
+	max-height: 2.56rem;
+}
+.hatch-side{
+	position: relative;
+}
+.hatch-list{
+	position: relative;
+	z-index: 2;
+}
+.hatch-list li{
+	width: 1.88rem;
+	height: .69rem;
+	border: 1px solid #797979;	
+	margin-bottom: .84rem;
+}
+.hatch-list li img{
+	display: block;
+	width: 100%;
+}
+.hatch-side{
+	display: none;
+}
+.pc .hatch-side{
+	display: block;
+}
+.hatch-side .dashed-line{
+	border:1px dashed #C6C6C6;
+	width: 2.5rem;
+	height: 3.16rem;
+	position: absolute;
+	top: .345rem;
+	border-radius: 3px;
+	z-index: 1;
+}
+.hatch-side .dashed-line-horizontal{
+	width: 3.5rem;
+	height: 0;
+	border-bottom: 1px dashed #C6C6C6;
+	position: absolute;
+	top: 1.94rem;
+}
+.hatch-left .dashed-line-horizontal{
+	left: 0;
+}
+.hatch-right .dashed-line-horizontal{
+	right: 0;
+}
+.hatch-left .dashed-line{
+	left: 0;
+	border-left-width: 0;
+}
+.hatch-right .dashed-line{
+	right: 0;
+	border-right-width: 0;
+}
+.phone .phone-hatch-list{
+	display: block;
+}
+.phone-hatch-list{
+	display: none;
+	margin-top: .54rem;
+}
+.phone-hatch-list .el-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .16rem;
+}
+.phone-hatch-list li{
+	width: 2.18rem;
+	height: .62rem;
+	box-sizing: border-box;
+	border: 1px solid #B0B0B0;
+}
+.phone-hatch-list li img{
+	display: block;
+	max-height: 100%;
+	margin: 0 auto;
 }

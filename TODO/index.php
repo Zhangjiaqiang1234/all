@@ -105,22 +105,22 @@
 					<img src="img/cube.png">
 				</div>
 				<ul class="ad-right">
-					<li class="phone-logo"><img src="img/cube.png"></li>
-					<li>
+					<li class="phone-logo one"><img src="img/cube.png"></li>
+					<li class="two">
 						<img class="ad-right-logo" src="img/advantage1.png"></img>
 						<div class="ad-content">
 							<h2>团队</h2>
 							<p class="text">名校海归成员，<br/>多年区块链从业经验，激情饱满</p>
 						</div>	
 					</li>
-					<li>
+					<li class="three">
 						<img class="ad-right-logo" src="img/advantage2.png"></img>
 						<div class="ad-content">
 							<h2>资源</h2>
 							<p class="text">主流交易所，快速上币<br/>知名VC，战略投资<br/>行业IP，强势加盟<br/>媒体资源，覆盖百万用户</p>
 						</div>	
 					</li>
-					<li>
+					<li class="four">
 						<img class="ad-right-logo" src="img/advantage3.png"></img>
 						<div class="ad-content">
 							<h2>经验</h2>
@@ -129,6 +129,47 @@
 					</li>
 				</ul>
 			</div>
+			<!-- 小标题 -->
+			<h2 class="advan-title">服务过的项目<i></i></h2>
+			<!-- 主导孵化 -->
+			<h2 class="hatch-title">主导孵化</h2>
+			<div class="hatch">
+				<div class="hatch-side hatch-left">
+					<ul class="hatch-list">
+						<li><img src="img/leading-hatch/1.png"></li>
+						<li><img src="img/leading-hatch/2.png"></li>
+						<li><img src="img/leading-hatch/3.png"></li>
+					</ul>
+					<!-- 虚线 -->
+					<div class="dashed-line"></div>
+					<div class="dashed-line-horizontal"></div>
+				</div>
+				<div class="hatch-mid">
+					<img src="img/earth.png">
+				</div>
+				<div class="hatch-side hatch-right">
+					<ul class="hatch-list">
+						<li><img src="img/leading-hatch/4.png"></li>
+						<li><img src="img/leading-hatch/5.png"></li>
+						<li><img src="img/leading-hatch/6.png"></li>
+					</ul>
+					<div class="dashed-line"></div>
+					<div class="dashed-line-horizontal"></div>
+				</div>
+			</div>
+			<!-- 移动端下的list -->
+			<ul class="phone-hatch-list">
+				<div class="el-row">
+					<li><img src="img/leading-hatch/1.png"></li>
+					<li><img src="img/leading-hatch/4.png"></li>
+					<li style="background: #040000;"><img src="img/leading-hatch/2.png"></li>
+				</div>
+				<div class="el-row">
+					<li style="background: #6687B7;"><img src="img/leading-hatch/3.png"></li>
+					<li style="background: #05030E;"><img src="img/leading-hatch/5.png"></li>
+					<li style="background: #131934;"><img src="img/leading-hatch/6.png"></li>
+				</div>
+			</ul>
 		</div>
 		<!-- 我们的优势结束 -->
 
