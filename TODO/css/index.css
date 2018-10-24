@@ -3,7 +3,7 @@
 }
 .pc .bg-logo{
 	display: block;
-	position: fixed;
+	position: absolute;
 	width: 12rem;
 	height: 6rem;
 	left: 0;
@@ -13,4 +13,324 @@
 
 	background:url(../img/logo_bg.png) no-repeat;
 	background-position: right top;
+}
+/*pc端banner*/
+.pc .pc-banner{
+	display: block;
+}
+.pc-banner{
+	display: none;
+	width: 100%;
+	height: 11.1rem;
+	position: relative;
+}
+.pc-banner-con{
+	width: 12rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.pc-banner-con .logo{
+	position: absolute;
+	top: 2.8rem;
+	left: .06rem;
+	width: 2.55rem;
+	height: .7rem;
+}
+.pc-banner-con .text{
+	position: absolute;
+	top: 3.9rem;
+	left: .06rem;
+	width: auto;
+	height: .34rem;
+	color: #535353;
+	font-size: 30px;
+}
+.pc-banner-bg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+}
+.pc-banner-con .big-ball{
+	position: absolute;
+	top: 2.25rem;
+	right: 2.2rem;
+	width: .65rem;
+	height: .62rem;
+}
+.pc-banner-con .sm-ball{
+	position: absolute;
+	top: 3.33rem;
+	left: 3.88rem;
+	width: .25rem;
+	height: .23rem;
+}
+
+/*内容区开始*/
+.pc .main{
+	width: 12rem;
+	margin: 0 auto;
+}
+.phone .main{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 .3rem;
+}
+.phone .base-title{
+	height: .9rem;
+}
+/*关于我们*/
+.about .text{
+	color: #525252;
+	line-height: .28rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding: .45rem .2rem .4rem;
+	font-size: 16px;
+	font-weight: bold;
+}
+.about-logo{
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.phone .about .text{
+	font-size: 14px;
+	line-height: .38rem;
+	padding: .2rem .2rem .4rem;
+
+}
+.about-logo{
+	max-height: 1.74rem;
+}
+
+
+/*业务板块*/
+.title-list{
+	width: 100%;
+	height: .88rem;
+	margin-top: .85rem;
+	display: flex;
+	justify-content: space-between;
+}
+.title-list li{
+	flex: 0 1 auto;
+	height: .88rem;
+	line-height: .84rem;
+	box-sizing: border-box;
+	width: 3.48rem;
+	text-align: center;
+	border: 2px solid #525252;
+	color: #525252;
+	font-weight: bold;
+}
+.phone .title-list li{
+	width: 2.16rem;
+	height: .68rem;
+	line-height: .64rem;
+}
+.base-wrap{
+	padding-top: 1px;
+	margin-bottom: 1.5rem;
+}
+.phone .base-wrap{
+	margin-bottom: 1.4rem;
+}
+.base-title{
+	margin: .18rem auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.plate{
+	margin-bottom: 1.2rem;
+}
+.plate-list li{
+	height: 1.96rem;
+	margin-bottom: .22rem;
+}
+.phone .plate-list li{
+	height: auto;
+	margin-bottom: .6rem;
+}
+.plate-list{
+	margin-top: .7rem;
+}
+.plate-list li .logo-box{
+	float: left;
+	width: 1.96rem;
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+.phone .plate-list li .logo-box{
+	float: none;
+	width: 100%;
+	height: 1.47rem;
+}
+.plate-list .logo-box .logo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+}
+.phone .plate-list .logo-box .logo{
+	max-height: 100%;
+}
+.plate-con{
+	float: left;
+	width: 10.04rem;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: .04rem;
+}
+.phone .plate-con{
+	width: 100%;
+}
+.phone .plate-con{
+	float: none;
+}
+.plate-con h2{
+	color: #363636;
+	font-size: 24px;
+	margin-top: .4rem;
+	margin-bottom: .3rem;
+}
+.phone .plate-con h2{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: .2rem;
+}
+.plate-con .text{
+	color: #7B7B7B;
+	line-height: .38rem;
+	font-size: 16px;
+}
+.phone .plate-con .text{
+	font-size: 12px;
+}
+
+/*我们的优势开始*/
+/*优势板块*/
+.ad-con{
+	margin-top: 1rem;
+	width: 100%;
+	height: 5.72rem;
+	box-sizing: border-box;
+}
+.phone .ad-con{
+	height: auto;
+}
+.ad-con .ad-left{
+	float: left;
+	width: 45%;
+	height: 100%;
+	position: relative;
+}
+.phone .ad-con .ad-left{
+	display: none;
+}
+.ad-con .ad-left img{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.ad-con .ad-right{
+	float: left;
+	width: 55%;
+	height: 100%;
+}
+.phone .ad-con .ad-right{
+	float: none;
+	width: 100%;
+	height: 8rem;
+}
+.pc .phone-logo{
+	display: none;
+}
+.ad-right li{
+	width: 100%;
+	box-sizing: border-box;
+	border:1px solid #ddd;
+	position: relative;
+}
+.pc .ad-right li{
+	width: 100%;
+	height: 33.333%;
+	position: relative;
+}
+.phone .ad-right li{
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+.phone .phone-logo img{
+	height: 2.46rem;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.ad-right-logo{
+	display: block;
+	float: left;
+	margin-top: 0.08rem;
+	margin-left: 1.25rem;
+}
+.ad-content{
+	float: left;
+	width: 4rem;
+	margin-left: .3rem;
+}
+.ad-content h2{
+	color: #363636;
+	font-size: 22px;
+	margin-top: .2rem;
+	margin-bottom: .1rem;
+	font-weight: bold;
+}
+.ad-content .text{
+	color: #797979;
+	line-height: .28rem;
+	font-size: 16px;
+}
+.phone .ad-right-logo{
+	float: none;
+	margin: .46rem auto 0;
+	height: 1rem;
+}
+.phone .ad-content{
+	float: none;
+	margin-left: 0;
+	width: 100%;
+}
+.phone .ad-content h2{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin-top: .26rem;
+	margin-top: .22rem; 
+}
+.phone .ad-content .text{
+	font-size: 14px;
+	line-height: .38rem;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 .3rem;
 }

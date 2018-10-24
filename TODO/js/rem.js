@@ -11,7 +11,6 @@ var clacRem = function(){
 		clientWidth = document.documentElement.clientWidth,
 		fontSize = clientWidth / designWidth * 100,
 		oldFlag;
-		console.log(clientWidth,designWidth,fontSize);
 		if(window.pc === true || window.pc === false){
 			oldFlag = window.pc;
 		}

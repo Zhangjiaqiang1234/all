@@ -150,7 +150,9 @@ html.phone{
 body{
 	background: #fff;
 }
-
+.pc body{
+	min-width: 12rem;
+}
 /*修改滚动条样式*/
 .pc .special-scrollbar::-webkit-scrollbar {
     width: .04rem;
@@ -170,12 +172,13 @@ body{
 	top: 0;
 	left: 0;
 	z-index: 100;
+	display: none;
 }
-.pc .nav{
-	right: 0;
-	margin: auto;
-	width: 12rem;
-	height: 1.04rem;
+.pc .pc-nav{
+	display: block;
+}
+.phone .phone-nav{
+	display: block;
 }
 .phone .nav{
 	width: 100%;
@@ -187,4 +190,59 @@ body{
 }
 .phone body{
 	padding-top: 0.9rem;
+}
+/*pc 导航*/
+.pc .nav{
+	right: 0;
+	margin: auto;
+	width: 12rem;
+	height: 1.04rem;
+}
+.pc-nav .logo{
+	float: left;
+	display: block;
+	width: 1.27rem;
+	height: .67rem;
+	margin-top: .32rem;
+}
+.pc-nav-list{
+	float: right;
+	margin-top: .5rem;
+}
+.pc-nav-list li{
+	float: left;
+	margin-left: .6rem;
+	height: .5rem;
+	line-height: 0;
+}
+.pc-nav-list li a{
+	display: block;
+	color: #124C82;
+	height: .2rem;
+	line-height: .2rem;
+	font-size: 16px;
+	font-weight: bold;
+}
+.pc-nav-list li.active{
+	border-bottom: 5px solid #124C82;
+}
+/*移动端导航*/
+.phone-nav{
+	background: #252525;
+}
+.phone-nav .logo{
+	display: block;
+	float: left;
+	width: .82rem;
+	height: .42rem;
+	margin-top: .25rem;
+	margin-left: .3rem;
+}
+.phone-nav .hanbao{
+	display: block;
+	float: right;
+	width: .82rem;
+	height: .42rem;
+	margin-top: .25rem;
+	margin-right: .3rem;
 }
