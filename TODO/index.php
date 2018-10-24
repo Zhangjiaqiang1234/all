@@ -170,8 +170,70 @@
 					<li style="background: #131934;"><img src="img/leading-hatch/6.png"></li>
 				</div>
 			</ul>
+			<!-- 参与孵化 -->
+			<h2 class="join-hatch-title hatch-title">参与孵化与市场推广项目</h2>
+			<ul class="join-hatch-list">
+				<div class="el-row">
+					<li><img src="img/cooper/1_03.png"></li>
+					<li><img src="img/cooper/2_03.png"></li>
+					<li><img src="img/cooper/3_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/4_03.png"></li>
+					<li><img src="img/cooper/5_03.png"></li>
+					<li><img src="img/cooper/6_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/7_03.png"></li>
+					<li><img src="img/cooper/8_03.png"></li>
+					<li><img src="img/cooper/9_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/10_03.png"></li>
+					<li><img src="img/cooper/11_03.png"></li>
+					<li><img src="img/cooper/12_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/13_03.png"></li>
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+				</div>
+			</ul>	
 		</div>
 		<!-- 我们的优势结束 -->
+
+
+		<!-- 战略合作伙伴开始 -->
+		<div class="cooper base-wrap">
+			<img class="base-title" src="img/sm-title/4.png"></img>
+			<ul class="join-hatch-list pc">
+				<div class="el-row">
+					<li><img src="img/cooper/1_03.png"></li>
+					<li><img src="img/cooper/2_03.png"></li>
+					<li><img src="img/cooper/3_03.png"></li>
+					<li><img src="img/cooper/4_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/5_03.png"></li>
+					<li><img src="img/cooper/6_03.png"></li>
+					<li><img src="img/cooper/7_03.png"></li>
+					<li><img src="img/cooper/8_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/9_03.png"></li>
+					<li><img src="img/cooper/10_03.png"></li>
+					<li><img src="img/cooper/11_03.png"></li>
+					<li><img src="img/cooper/12_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/13_03.png"></li>
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/cooper/16_03.png"></li>
+				</div>
+			</ul>
+		</div>
+		<!-- 战略合作伙伴结束 -->
 
 	</div>
 	<!-- 内容区结束 -->

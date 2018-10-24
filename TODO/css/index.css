@@ -470,3 +470,57 @@
 	max-height: 100%;
 	margin: 0 auto;
 }
+.advantage .join-hatch-title{
+	margin-top: 1rem;
+}
+.phone .advantage .join-hatch-title{
+	margin-top: .64rem;
+}
+.join-hatch-list{
+	margin-top: .5rem;
+}
+.join-hatch-list .el-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .34rem;
+}
+.phone .join-hatch-list .el-row{
+	margin-bottom: .16rem;
+}
+.join-hatch-list li{
+	width: 3.06rem;
+	height: .84rem;
+	border: 1px solid #797979;
+	line-height: .84rem;
+	text-align: center;
+	position: relative;
+}
+.phone .join-hatch-list li{
+	width: 2.2rem;
+	height: .6rem;
+}
+.join-hatch-list li img{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*合作伙伴*/
+.cooper .base-title{
+	margin-top: .02rem;
+}
+.join-hatch-list{
+	display: none;
+}
+.pc .join-hatch-list.pc{
+	display: block;
+}
+.phone .join-hatch-list.phone{
+	display: block;
+}
