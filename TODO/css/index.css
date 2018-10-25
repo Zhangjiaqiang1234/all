@@ -287,7 +287,7 @@
 	width: 100%;
 	height: 33.3333%;
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .phone .ad-right li{
 	float: left;
@@ -331,11 +331,21 @@
 	margin-top: .1rem;
 	margin-bottom: .1rem;
 	font-weight: bold;
+	transition: all .8s cubic-bezier(.21,.97,.78,1.32);
+	transform: translateX(1rem);
+}
+.ad-content h2.active{
+	transform: translateX(0);
+}
+.ad-content .text.active{
+	transform: translateX(0);
 }
 .ad-content .text{
 	color: #797979;
 	line-height: .2rem;
 	font-size: 16px;
+	transition: all .8s .2s cubic-bezier(.21,.97,.78,1.32);
+	transform: translateX(1rem);
 }
 .phone .ad-right-logo{
 	float: none;
@@ -825,8 +835,8 @@ body .particletext.bubbles > .particle {
   opacity: 0;
   position: absolute;
   background-color: rgba(33, 150, 243, 0.5);
-  -webkit-animation: bubbles 3s ease-in;
-          animation: bubbles 3s ease-in;
+  -webkit-animation: bubbles 3s ease-in infinite;
+          animation: bubbles 3s ease-in infinite;
   border-radius: 100%;
 }
 
@@ -899,6 +909,9 @@ body .particletext.bubbles > .particle {
     -webkit-transform: rotateX(-37.5deg) rotateY(405deg);
     transform: rotateX(-37.5deg) rotateY(405deg);
   }
+}
+.container .ad-cube{
+	transform: scale(0.5);
 }
 .ad-cube, .ad-cube * {
   position: absolute;

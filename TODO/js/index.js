@@ -50,5 +50,25 @@ $(document).ready(function(){
     });
 
 
+	if(window.pc === true){ // PC端事件
+
+	}else{ // 移动端事件
+		// 顶部汉堡事件
+		var navList = $('.phone-nav-list');
+		$('.hanbao').click(function(){
+			var that = $(this);
+			var show = that.hasClass('active');
+			if(show){ // 如果当前是展示状态，那么收起
+				that.removeClass('active');
+				navList.stop().slideUp();
+			}else{
+				that.addClass('active');
+				navList.stop().slideDown();
+			}
+		})
+
+
+	}
+
 
 })
