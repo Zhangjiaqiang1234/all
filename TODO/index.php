@@ -11,7 +11,10 @@
 	<!-- 导航开始 -->
 	<!-- pc导航 -->
 	<nav class="nav pc-nav">
-		<img class="logo" src="img/nav-logo.png"></img>
+		<div class="logo-box textcontainer">
+			<span class="logo particletext bubbles"></span>
+			<!-- <img class="logo particletext bubbles" src="img/nav-logo.png"></img> -->
+		</div>
 		<ul class="pc-nav-list">
 			<li class="active"><a href="">首页</a></li>
 			<li><a href="">新闻资讯</a></li>
@@ -34,12 +37,13 @@
 	<!-- pc端banenr开始 -->
 	<div class="pc-banner">
 		<div class="pc-banner-con">
+			<!-- 山峰 -->
+			<img class="pc-banner-bg" src="img/mountain.png">
 			<img class="logo" src="img/banner-logo.png"></img>
 			<p class="text">TODO速度，专注区块链服务</p>
 			<img class="big-ball" src="img/big-ball.png"></img>
 			<img class="sm-ball" src="img/sm-ball.png"></img>
 		</div>
-		<img class="pc-banner-bg" src="img/mountain.png">
 	</div>	
 	<!-- pc端banenr结束 -->
 
@@ -51,7 +55,52 @@
 		<div class="about base-wrap">
 			<img class="base-title" src="img/sm-title/1.png"></img>
 			<p class="text">    ToDo Incubator成立于澳州，是一家专业为区块链企业提供全方位深度商业服务的公司，核心业务包括：项目孵化、企业咨询、区块链一级、二级市场投资、量化投资等服务。ToDo Inculbator放眼全球，拥有优秀的国际化团队，以技术、人才、资本、国内外媒体资源为优势，为区块链初创企业提供快而有力的加速服务。</p>
-			<img class="about-logo" src="img/about-logo.png"></img>
+			<div class="cube-box scroll">
+			  <ul class="cube">
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  </ul>
+			  <ul class="cube">
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  </ul>
+			  <ul class="cube">
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  </ul>
+			  <ul class="cube">
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  	<li></li>
+			  </ul>
+			  <ul class="point">
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			  </ul> 
+			</div>
+
 		</div>
 		<!-- 关于我们结束 -->
 
@@ -102,7 +151,24 @@
 			<!-- 优势板块 -->
 			<div class="ad-con">
 				<div class="ad-left">
-					<img src="img/cube.png">
+					<!-- <img src="img/cube.png"> -->
+
+					<!-- 立方体 -->
+
+					<div class="container">
+						<div class="ad-cube scroll">
+							<div class="sides">
+								<div class="top"></div>
+								<div class="right"></div>
+								<div class="bottom"></div>
+								<div class="left"></div>
+								<div class="front"></div>
+								<div class="back"></div>
+							</div>
+						</div>
+					</div>
+
+
 				</div>
 				<ul class="ad-right">
 					<li class="phone-logo one"><img src="img/cube.png"></li>
@@ -206,7 +272,7 @@
 		<!-- 战略合作伙伴开始 -->
 		<div class="cooper base-wrap">
 			<img class="base-title" src="img/sm-title/4.png"></img>
-			<ul class="join-hatch-list pc">
+			<!-- <ul class="join-hatch-list pc">
 				<div class="el-row">
 					<li><img src="img/cooper/1_03.png"></li>
 					<li><img src="img/cooper/2_03.png"></li>
@@ -231,15 +297,165 @@
 					<li><img src="img/cooper/15_03.png"></li>
 					<li><img src="img/cooper/16_03.png"></li>
 				</div>
+			</ul> -->
+			<ul class="join-hatch-list phone">
+				<div class="el-row">
+					<li><img src="img/cooper/1_03.png"></li>
+					<li><img src="img/cooper/2_03.png"></li>
+					<li><img src="img/cooper/3_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/4_03.png"></li>
+					<li><img src="img/cooper/5_03.png"></li>
+					<li><img src="img/cooper/6_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/7_03.png"></li>
+					<li><img src="img/cooper/8_03.png"></li>
+					<li><img src="img/cooper/9_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/10_03.png"></li>
+					<li><img src="img/cooper/11_03.png"></li>
+					<li><img src="img/cooper/12_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/cooper/16_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/cooper/16_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/cooper/16_03.png"></li>
+				</div>
+				<div class="el-row">
+					<li><img src="img/cooper/14_03.png"></li>
+					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/cooper/16_03.png"></li>
+				</div>
 			</ul>
 		</div>
 		<!-- 战略合作伙伴结束 -->
 
+
+		<!-- 新闻资讯开始 -->
+		<div class="news base-wrap">
+			<img class="base-title" src="img/sm-title/5.png"></img>
+			<ul class="news-list pc">
+				<div class="el-row">
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/1_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/2_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/3_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+				</div>
+				<div class="el-row">
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/4_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/5_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/6_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+				</div>
+			</ul>
+			<!-- 移动端 -->
+			<ul class="news-list phone">
+				<div class="el-row">
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/1_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/2_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+				</div>
+				<div class="el-row">
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/5_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/6_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+				</div>
+				<div class="el-row">
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/5_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+					<li>
+						<div class="img-box">
+							<img src="img/news-info/6_03.png">
+						</div>
+						<h2>资讯一</h2>
+						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
+					</li>
+				</div>
+			</ul>
+		</div>
+		<!-- 新闻资讯结束 -->
+
 	</div>
 	<!-- 内容区结束 -->
 
+	<?php include 'footer.php';?>
 
-	<div style="height: 1000px;background: rgba(255,0,0,0.1)"></div>
 
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
