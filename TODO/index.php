@@ -282,12 +282,12 @@
 				<div class="el-row scroll bottom2top">
 					<li><img src="img/leading-hatch/1.png"></li>
 					<li><img src="img/leading-hatch/4.png"></li>
-					<li style="background: #040000;"><img src="img/leading-hatch/2.png"></li>
+					<li><img src="img/leading-hatch/2.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li style="background: #6687B7;"><img src="img/leading-hatch/3.png"></li>
-					<li style="background: #05030E;"><img src="img/leading-hatch/5.png"></li>
-					<li style="background: #131934;"><img src="img/leading-hatch/6.png"></li>
+					<li><img src="img/leading-hatch/3.png"></li>
+					<li><img src="img/leading-hatch/5.png"></li>
+					<li><img src="img/leading-hatch/6.png"></li>
 				</div>
 			</ul>
 			<!-- 参与孵化 -->

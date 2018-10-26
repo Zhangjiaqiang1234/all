@@ -1,10 +1,10 @@
 var isTop = true;
-window.onload = function(){ // 刷新让页面回到最顶端
-	setTimeout(function(){
-		$(window).scrollTop(0);
-		isTop = true;
-	},10);
-}
+// window.onload = function(){ // 刷新让页面回到最顶端
+// 	setTimeout(function(){
+// 		$(window).scrollTop(0);
+// 		isTop = true;
+// 	},10);
+// }
 
 
 

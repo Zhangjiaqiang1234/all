@@ -34,6 +34,8 @@ $(document).ready(function(){
     })
 
     jump.click(function(){ // 导航点击事件
+        jump.removeClass('active');
+        $(this).addClass('active');
         var pos = jumpArr[$(this).index()]-120;
         $('html,body').animate({
             scrollTop: pos

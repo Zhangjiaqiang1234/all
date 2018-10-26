@@ -17,7 +17,7 @@
 <!-- 移动端导航 -->
 <nav class="nav phone-nav">
 	<img class="logo" src="img/white-logo.png"></img>
-	<img class="hanbao" src="img/white-logo.png"></img>
+	<img class="hanbao" src="img/hanbao.png"></img>
 	<ul class="phone-nav-list">
 		<li class="active jump"><a href="###">首页</a></li>
 		<li class="jump"><a href="###">关于我们</a></li>

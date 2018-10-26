@@ -4,7 +4,7 @@
 .pc .bg-logo{
 	display: block;
 	position: absolute;
-	width: 12rem;
+	width: 10rem;
 	height: 2rem;
 	left: 0;
 	right: 0;
@@ -13,6 +13,7 @@
 	z-index: 51;
 	background:url(../img/logo_bg.png) no-repeat;
 	background-position: right top;
+	background-size: 500px auto;
 }
 /*pc端banner*/
 .pc .pc-banner{
@@ -21,7 +22,7 @@
 .pc-banner{
 	display: none;
 	width: 100%;
-	height: 11.1rem;
+	height: 10.6rem;
 	position: relative;
 	overflow-x: hidden;
 }
@@ -33,19 +34,21 @@
 }
 .pc-banner-con .logo{
 	position: absolute;
-	top: 2.8rem;
-	left: .06rem;
-	width: 2.55rem;
-	height: .7rem;
+	top: 2.9rem;
+	left: 3rem;
+	/*width: 2.55rem;*/
+	/*height: .7rem;*/
+	width: 2rem;
+	height: .54rem;
 }
 .pc-banner-con .text{
 	position: absolute;
-	top: 3.9rem;
-	left: .06rem;
+	top: 3.65rem;
+	left: 3rem;
 	width: auto;
 	height: .34rem;
 	color: #535353;
-	font-size: 30px;
+	font-size: 24px;
 }
 .pc-banner{
 	/*background: rgba(255,0,0,0.2);*/
@@ -58,20 +61,20 @@
 	min-width: 14rem;
 	height: 100%;
 	background: url(../img/mountain.png) no-repeat;
-	background-size: 120% auto;
+	background-size: 100% auto;
 	background-position: 50% bottom;
 }
 .pc-banner-con .big-ball{
 	position: absolute;
-	top: 2.25rem;
-	right: 2.2rem;
+	top: 2.8rem;
+	right: 3rem;
 	width: .65rem;
 	height: .62rem;
 }
 .pc-banner-con .sm-ball{
 	position: absolute;
-	top: 3.33rem;
-	left: 3.88rem;
+	top: 4rem;
+	left: 1.88rem;
 	width: .25rem;
 	height: .23rem;
 }
@@ -216,8 +219,8 @@
 	padding-left: .04rem;
 	padding-left: .2rem;
 }
-.pc .plate-list:hover .plate-con h2,
-.pc .plate-list:hover .plate-con .text{
+.pc .plate-list li:hover .plate-con h2,
+.pc .plate-list li:hover .plate-con .text{
 	color: #124C82
 }
 .phone .plate-con{
@@ -348,16 +351,6 @@
 	display: block;
 	float: left;
 	margin-top: 0.08rem;
-	width: 1rem!important;
-	height: 1rem!important;
-}
-.phone .ad-right-logo .line-box{
-	width: 64%!important;
-	height: 64%!important;
-}
-.phone .ad-right-logo img{
-	width: 80%!important;
-	height: 80%!important;
 }
 .ad-content{
 	float: left;
@@ -365,6 +358,7 @@
 	margin-left: .3rem;
 }
 .ad-content h2{
+	text-align: center;
 	color: #363636;
 	font-size: 22px;
 	margin-top: .1rem;
@@ -376,6 +370,7 @@
 	transform: translateX(1rem);
 }
 .ad-content .text{
+	text-align: center;
 	color: #797979;
 	line-height: .2rem;
 	font-size: 16px;
@@ -393,7 +388,6 @@
 .phone .ad-right-logo{
 	float: none;
 	margin: .46rem auto 0;
-	height: 1rem;
 }
 .phone .ad-content{
 	float: none;
@@ -953,7 +947,7 @@ body .bottom2top.scroll.active>li{
     transform: rotateX(-37.5deg) rotateY(405deg);
   }
 }
-.container .ad-cube{
+.ad-right .container .ad-cube{
 	transform: scale(0.5);
 }
 .ad-cube, .ad-cube * {

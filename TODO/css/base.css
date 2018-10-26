@@ -182,7 +182,7 @@ body{
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 1.04rem;
+	height: .7rem;
 	z-index: 50;
 	background: #fff;
 }
@@ -250,7 +250,7 @@ body .particletext.bubbles > .particle {
 
 /*导航留白*/
 .pc body{
-	padding-top: 1.04rem;
+	padding-top: .7rem;
 }
 .phone body{
 	padding-top: 0.9rem;
@@ -260,7 +260,7 @@ body .particletext.bubbles > .particle {
 	right: 0;
 	margin: auto;
 	width: 12rem;
-	height: 1.04rem;
+	height: .7rem;
 }
 .pc-nav .logo-box{
 	float: left;
@@ -269,7 +269,7 @@ body .particletext.bubbles > .particle {
 	height: .67rem;
 }
 .pc-nav .logo-box .logo{
-	margin-top: .32rem;
+	margin-top: .1rem;
 	display: block;
 	width: 1.27rem;
 	height: .67rem;
@@ -278,12 +278,12 @@ body .particletext.bubbles > .particle {
 }
 .pc-nav-list{
 	float: right;
-	margin-top: .5rem;
+	margin-top: .32rem;
 }
 .pc-nav-list li{
 	float: left;
 	margin-left: .6rem;
-	height: .5rem;
+	height: .32rem;
 	line-height: 0;
 }
 .pc-nav-list li a{
@@ -296,6 +296,10 @@ body .particletext.bubbles > .particle {
 }
 .pc-nav-list li.active{
 	border-bottom: 5px solid #124C82;
+	border-color: #1e82de;
+}
+.pc-nav-list li.active a{
+	color: #1e82de;
 }
 /*移动端导航*/
 .phone-nav{
@@ -463,12 +467,14 @@ body .particletext.bubbles > .particle {
 
 /*图标盒子效果*/
 .pc .icon-box{
-	width: 1.2rem;
-	height: 1.2rem;
+	/*width: 1.2rem;*/
+	/*height: 1.2rem;*/
+	width: 1rem;
+	height: 1rem;
 }
 .phone .icon-box{
-	width: 1.4rem;
-	height: 1.4rem;
+	width: 1.2rem;
+	height: 1.2rem;
 }
 /*基本灰色 #525252 蓝色 #124C82*/
 .icon-box{
