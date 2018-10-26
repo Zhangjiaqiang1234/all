@@ -31,11 +31,9 @@
 		<div class="contact">
 			<ul class="contact-list">
 				<li><img src="img/icon_03.png"></li>
-				<li><img src="img/icon_03.png"></li>
-				<li><img src="img/icon_03.png"></li>
-				<li><img src="img/icon_03.png"></li>
-				<li><img src="img/icon_03.png"></li>
-				<li><img src="img/icon_03.png"></li>
+				<li><img src="img/icon_qq.png"></li>
+				<li><img src="img/icon_weibo.png"></li>
+				<li><img src="img/icon_weixin.png"></li>
 			</ul>
 			<!-- email -->
 			<div class="footer-email">

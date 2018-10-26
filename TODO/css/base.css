@@ -177,6 +177,15 @@ body{
 .pc .pc-nav{
 	display: block;
 }
+.pc .nav-mask{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.04rem;
+	z-index: 50;
+	background: #fff;
+}
 .phone .phone-nav{
 	display: block;
 }
@@ -184,6 +193,61 @@ body{
 	width: 100%;
 	height: 0.9rem;
 }
+
+
+/*logo动画特效*/
+body .textcontainer {
+  text-align: center;
+}
+body .particletext {
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+}
+
+
+body .particletext.bubbles > .particle {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(33, 150, 243, 0.5);
+  -webkit-animation: bubbles 3s ease-in infinite;
+          animation: bubbles 3s ease-in infinite;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes bubbles {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, -20%);
+            transform: translate(0, -20%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -1000%);
+            transform: translate(0, -1000%);
+  }
+}
+
+@keyframes bubbles {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, -20%);
+            transform: translate(0, -20%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -1000%);
+            transform: translate(0, -1000%);
+  }
+}
+
+
 /*导航留白*/
 .pc body{
 	padding-top: 1.04rem;
@@ -392,4 +456,92 @@ body{
 }
 .phone .footer-email{
 	display: inline-block;
+}
+
+
+
+
+/*图标盒子效果*/
+.pc .icon-box{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.phone .icon-box{
+	width: 1.4rem;
+	height: 1.4rem;
+}
+/*基本灰色 #525252 蓝色 #124C82*/
+.icon-box{
+	position: relative;
+}
+/*实线*/
+.solid-line{
+	border:2px solid #525252;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	transition: all 2s ease;
+	transform: rotate(-180deg);
+}
+.icon-box.active .solid-line{
+	transform: rotate(0deg);
+}
+/*圆点*/
+.solid-line .circle{
+	position: absolute;
+	width: 17.4%;
+	height: 17.4%;
+	background: #525252;
+	border-radius: 50%;
+}
+.solid-line .circle:nth-of-type(1){
+	left: 10%;
+	bottom: 0;
+}
+.solid-line .circle:nth-of-type(2){
+	right: 10%;
+	top: 0;
+}
+.icon-box .line-box{
+	border:1px dashed #525252;
+	border-radius: 50%;
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.icon-box .line-box img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 60%;
+}
+.icon-box .line-box .icon_light{
+	display: none;
+}
+/*pc下鼠标移入变色*/
+.pc .icon-box-wrap:hover .icon-box .solid-line,
+.pc .icon-box-wrap:hover .icon-box .line-box{
+	border-color: #124C82;
+	color: #124C82;
+}
+.pc .icon-box-wrap:hover .icon-box .circle{
+	background: #124C82;
+}
+.pc .icon-box-wrap:hover .icon-box .icon_light{
+	display: block;
+}
+.pc .icon-box-wrap:hover .icon-box .icon_base{
+	display: none;
 }
