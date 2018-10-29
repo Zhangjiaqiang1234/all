@@ -24,7 +24,7 @@
 			<div class="textcontainer">
 				<span class="logo particletext bubbles"></span>
 			</div>
-			<p id="banner-text" class="text">TODO速度，专注区块链服务</p>
+			<p id="banner-text" class="text">TODO速度，专注区块链服务<?=$lan['bannerTitle']?></p>
 			<img id="big-ball" class="big-ball" src="img/ball.png"></img>
 			<img id="sm-ball" class="sm-ball" src="img/ball.png"></img>
 		</div>
@@ -405,10 +405,7 @@
 
 	<?php include 'footer.php';?>
 
-
-<script src="js/jquery.min.js"></script>
 <script src="js/bodymovin.min.js"></script>
-<script src="js/base.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

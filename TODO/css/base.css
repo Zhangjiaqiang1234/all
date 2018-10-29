@@ -282,9 +282,20 @@ body .particletext.bubbles > .particle {
 }
 .pc-nav-list li{
 	float: left;
-	margin-left: .6rem;
+	margin-left: .5rem;
 	height: .32rem;
 	line-height: 0;
+}
+.pc-nav-list li.lan a{
+	font-size: 0;
+}
+.pc-nav-list li.lan a>*{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+}
+.pc-nav-list li.lan a span{
+	margin-left: .04rem;
 }
 .pc-nav-list li a{
 	display: block;

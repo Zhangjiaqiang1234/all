@@ -48,8 +48,6 @@
 	<?php include 'footer.php';?>
 
 
-<script src="js/jquery.min.js"></script>
-<script src="js/base.js"></script>
 <script src="js/newsShow.js"></script>
 </body>
 </html>

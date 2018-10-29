@@ -16,6 +16,7 @@
 			<li class="jump"><a href="###">新闻资讯</a></li>
 			<li><a href="news.php">新闻资讯</a></li>
 			<li><a href="jobList.php">加入我们</a></li>
+			<li class="lan"><a href="javascript:;"><img src="img/EN.png"><span>EN</span></a></li>
 		</ul>
 	<?php }else{?>
 		<ul class="pc-nav-list">

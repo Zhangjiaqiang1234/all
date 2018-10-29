@@ -36,16 +36,9 @@
 	</div>
 	<!-- 新闻资讯结束 -->
 
-
-
-
-
-
 	<?php include 'footer.php';?>
 
 
-<script src="js/jquery.min.js"></script>
-<script src="js/base.js"></script>
 <script src="js/news.js"></script>
 </body>
 </html>
