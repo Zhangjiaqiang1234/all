@@ -7,27 +7,40 @@
 </head>
 <body>
 
-	<?php $nav[0] = true; include 'header.php';?>
+	<?php $index = true; include 'header.php';?>
 
 	<!-- 半透明logo背景 -->
 	<div class="bg-logo"></div>
 	<div class="jump-pos"></div>
 	<!-- pc端banenr开始 -->
 	<div class="pc-banner">
-		<div class="pc-banner-bg"></div>
+		<!-- <div class="pc-banner-bg"></div> -->
 		<div class="pc-banner-con">
 			<!-- 山峰 -->
-			<!-- <img class="pc-banner-bg" src="img/mountain.png"> -->
-			<img class="logo" src="img/banner-logo.png"></img>
+			<img id="mountain1" class="pc-mountain1" src="img/mountain1.png">
+			<img id="mountain2" class="pc-banner-bg" src="img/mountain2.png">
+			<img id="mountain3" class="pc-mountain3" src="img/mountain3.png">
+			<img id="banner-logo" class="logo" src="img/banner-logo.png"></img>
 			<div class="textcontainer">
 				<span class="logo particletext bubbles"></span>
 			</div>
-			<p class="text">TODO速度，专注区块链服务</p>
-			<img class="big-ball" src="img/ball.png"></img>
-			<img class="sm-ball" src="img/ball.png"></img>
+			<p id="banner-text" class="text">TODO速度，专注区块链服务</p>
+			<img id="big-ball" class="big-ball" src="img/ball.png"></img>
+			<img id="sm-ball" class="sm-ball" src="img/ball.png"></img>
 		</div>
 	</div>	
 	<!-- pc端banenr结束 -->
+
+	<!-- 移动端banner开始 -->
+	<div class="phone-banner">
+		<div class="phone-banner-con">
+			<div class="logo-box textcontainer">
+				<span class="logo particletext bubbles"></span>
+			</div>
+			<p class="text">TODO速度，专注区块链服务</p>
+		</div>
+	</div>
+	<!-- 移动端banner结束 -->
 
 
 	<!-- 内容区开始 -->
@@ -264,8 +277,9 @@
 					<div class="dashed-line"></div>
 					<div class="dashed-line-horizontal"></div>
 				</div>
-				<div class="hatch-mid">
-					<img src="img/earth.png">
+				<div id="animationWindow" class="hatch-mid">
+					<div class="hatch-mask"></div>
+					<!-- <img src="img/earth.png"> -->
 				</div>
 				<div class="hatch-side hatch-right">
 					<ul class="hatch-list">
@@ -294,29 +308,29 @@
 			<h2 class="join-hatch-title hatch-title">参与孵化与市场推广项目</h2>
 			<ul class="join-hatch-list">
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/1_03.png"></li>
-					<li><img src="img/cooper/2_03.png"></li>
-					<li><img src="img/cooper/3_03.png"></li>
+					<li><img src="img/partake-hatch/1_03.png"></li>
+					<li><img src="img/partake-hatch/2_03.png"></li>
+					<li><img src="img/partake-hatch/3_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/4_03.png"></li>
-					<li><img src="img/cooper/5_03.png"></li>
-					<li><img src="img/cooper/6_03.png"></li>
+					<li><img src="img/partake-hatch/4_03.png"></li>
+					<li><img src="img/partake-hatch/5_03.png"></li>
+					<li><img src="img/partake-hatch/6_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/7_03.png"></li>
-					<li><img src="img/cooper/8_03.png"></li>
-					<li><img src="img/cooper/9_03.png"></li>
+					<li><img src="img/partake-hatch/7_03.png"></li>
+					<li><img src="img/partake-hatch/8_03.png"></li>
+					<li><img src="img/partake-hatch/9_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/10_03.png"></li>
-					<li><img src="img/cooper/11_03.png"></li>
-					<li><img src="img/cooper/12_03.png"></li>
+					<li><img src="img/partake-hatch/10_03.png"></li>
+					<li><img src="img/partake-hatch/11_03.png"></li>
+					<li><img src="img/partake-hatch/12_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/13_03.png"></li>
-					<li><img src="img/cooper/14_03.png"></li>
-					<li><img src="img/cooper/15_03.png"></li>
+					<li><img src="img/partake-hatch/13_03.png"></li>
+					<li><img src="img/partake-hatch/14_03.png"></li>
+					<li><img src="img/partake-hatch/15_03.png"></li>
 				</div>
 			</ul>	
 		</div>
@@ -348,24 +362,24 @@
 					<li><img src="img/cooper/12_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
+					<li><img src="img/cooper/13_03.png"></li>
 					<li><img src="img/cooper/14_03.png"></li>
 					<li><img src="img/cooper/15_03.png"></li>
-					<li><img src="img/cooper/16_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/14_03.png"></li>
-					<li><img src="img/cooper/15_03.png"></li>
 					<li><img src="img/cooper/16_03.png"></li>
+					<li><img src="img/cooper/17_03.png"></li>
+					<li><img src="img/cooper/18_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/14_03.png"></li>
-					<li><img src="img/cooper/15_03.png"></li>
-					<li><img src="img/cooper/16_03.png"></li>
+					<li><img src="img/cooper/19_03.png"></li>
+					<li><img src="img/cooper/20_03.png"></li>
+					<li><img src="img/cooper/21_03.png"></li>
 				</div>
 				<div class="el-row scroll bottom2top">
-					<li><img src="img/cooper/14_03.png"></li>
-					<li><img src="img/cooper/15_03.png"></li>
-					<li><img src="img/cooper/16_03.png"></li>
+					<li><img src="img/cooper/22_03.png"></li>
+					<li><img src="img/cooper/23_03.png"></li>
+					<li><img src="img/cooper/24_03.png"></li>
 				</div>
 			</ul>
 		</div>
@@ -374,106 +388,14 @@
 
 		<!-- 新闻资讯开始 -->
 		<div class="news base-wrap jump-pos">
-			<a class="news-seemore">查看更多>>></a>
+			<a class="news-seemore" href="news.php">查看更多>></a>
 			<img class="base-title" src="img/sm-title/5.png"></img>
 			<ul class="news-list pc">
-				<div class="el-row">
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/1_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/2_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/3_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-				</div>
-				<div class="el-row">
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/4_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/5_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/6_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-				</div>
+				<!-- PC端新闻资讯 -->
 			</ul>
 			<!-- 移动端 -->
 			<ul class="news-list phone">
-				<div class="el-row">
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/1_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/2_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-				</div>
-				<div class="el-row">
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/5_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/6_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-				</div>
-				<div class="el-row">
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/5_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="img/news-info/6_03.png">
-						</div>
-						<h2>资讯一</h2>
-						<p class="text slh1" title="名校海归成员，多年区块链从业经验，经验丰富">名校海归成员，多年区块链从业经验，经验丰富</p>
-					</li>
-				</div>
+				
 			</ul>
 		</div>
 		<!-- 新闻资讯结束 -->
@@ -485,6 +407,7 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="js/bodymovin.min.js"></script>
 <script src="js/base.js"></script>
 <script src="js/index.js"></script>
 </body>

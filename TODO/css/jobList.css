@@ -1,0 +1,132 @@
+body{
+	background: #fff;
+}
+.nav-list-bg{
+	width: 100%;
+	height: .7rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #f5f5f5 url('../img/list-bg.png') no-repeat;
+	background-size: 100% auto;
+	background-position: 50% 0;
+}
+.phone .nav-list-bg{
+	display: none;
+}
+.pc .nav-mask{
+	background: rgba(0,0,0,0);
+}
+.phone-bg-mask{
+	display: none;
+}
+.phone .phone-bg-mask{
+	display: block;
+	width: 100%;
+	height: 5.4rem;
+	position: absolute;
+	left: 0;
+	top: .9rem;
+	background: url('../img/list-bg.png') no-repeat;
+	background-size: auto 100%;
+	background-position: 50% bottom;
+}
+.job-list-box{
+	width: 12rem;
+	margin: .5rem auto 0;
+	padding-bottom: .4rem;
+}
+.phone .job-list-box{
+	margin-top: 2.5rem;
+	width: 100%;
+}
+.job-list{
+	overflow: hidden;
+}
+.phone .job-list{
+	box-sizing: border-box;
+	padding: 0 .3rem;
+}
+.job-list li{
+	float: left;
+	width: 3.68rem;
+	height: 3.68rem;
+	box-sizing: border-box;
+	margin-right: .48rem;
+	border: 1px solid #D2D2D2;
+	margin-bottom: .3rem;
+}
+.job-list li:nth-of-type(3n){
+	margin-right: 0;
+}
+.phone .job-list li{
+	float: none;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.job-list li h1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #4E4E4E;
+	text-align: center;
+	margin-top: .5rem; 
+}
+.job-list li h2{
+	color: #A79DB3;
+	font-size: 14px;
+	text-align: center;
+	margin-top: .1rem;
+	position: relative;
+}
+.job-list li h2 .line{
+	display: none;
+}
+.phone .job-list li h2{
+	color: #535353;
+	display: inline-block;
+}
+.phone .job-list li h2 .line{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 2.1rem;
+	height: 2px;
+}
+.phone .job-list li h2 .line:nth-of-type(1){
+	left: -2.4rem;
+	background: linear-gradient(to left, #535353 0%,#535353 30%,#ffffff 100%);
+}
+.phone .job-list li h2 .line:nth-of-type(2){
+	right: -2.4rem;
+	background: linear-gradient(to right, #535353 0%,#535353 30%,#ffffff 100%);
+}
+.job-list .list-wrap{
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: .3rem;
+	padding-right: .1rem;
+	margin-top: .3rem;
+	padding-bottom: .1rem
+}
+.phone .job-list .list-wrap{
+	padding-bottom: .4rem;
+}
+.job-list .list-wrap h3{
+	font-size: 14px;
+	color: #5A5A5A;
+	text-align: left;
+}
+.job-list .list-wrap p{
+	color: #727272;
+	line-height: .24rem;
+	width: 3.1rem;
+	font-size: 14px;
+	text-align: left;
+}
+.phone .job-list .list-wrap p{
+	width: 100%;
+	line-height: .4rem;
+}

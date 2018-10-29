@@ -1,0 +1,242 @@
+body{
+	background-color: #F5F5F5;
+	position: relative;
+}
+.pc .nav-mask{
+	background-color: #F5F5F5;
+}
+.bg-mask{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: -.7rem;
+	width: 100%;
+	max-width: 100%;
+	z-index: 90;
+}
+.pc .bg-mask{
+	display: block;
+}
+.phone-bg-mask{
+	display: none;
+}
+.phone .phone-bg-mask{
+	display: block;
+	width: 100%;
+	height: 5.4rem;
+	position: absolute;
+	left: 0;
+	top: .9rem;
+	background: url('../img/list-bg.png') no-repeat;
+	background-size: auto 100%;
+	background-position: 50% bottom;
+}
+/*新闻资讯开始*/
+.news-main{
+	height: auto;
+	background: #fff;
+	height: auto;
+	margin: 0 auto;
+}
+.phone .news-main{
+	background: rgba(0,0,0,0);
+}
+.pc .news-main{
+	background: #fff;
+	margin-top: 1.34rem;
+	width: 12rem;
+	padding: .45rem 0;
+}
+.pc .news-list{
+	width: 11.6rem;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.pc .news-list li{
+	float: left;
+	width: 3.78rem;
+	height: auto;
+	box-sizing: border-box;
+	margin-right: .13rem;
+	margin-bottom: .68rem;
+}
+.pc .news-list li .news-img{
+	height: 1.9rem;
+	box-sizing: border-box;
+	width: 100%;
+	border:1px solid #9A9A9A;
+}
+.pc .news-list li .news-img img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+.pc .news-list li h2{
+	color: #343434;
+	font-size: 16px;
+	margin-top:.16rem;
+}
+.pc .news-list li p{
+	color: #978AA5;
+	font-size: 14px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	margin-top:.06rem;
+	white-space: nowrap;
+}
+.pc .news-list li:nth-of-type(3n){
+	margin-right: 0;
+}
+
+/*移动端*/
+.phone .news-main{
+	margin-top: 2.9rem;
+	box-sizing: border-box;
+	padding: 0 .3rem;
+}
+.phone .news-main .news-list li{
+	width: 100%;
+	margin-bottom: .44rem;
+	background: #fff;
+	padding-bottom: .5rem;
+}
+.phone .news-main .news-img{
+	width: 6.44rem
+	height: 3.22rem;
+	background: red;
+	box-sizing: border-box;
+	border:1px solid #B1B1B1;
+}
+.phone .news-main .news-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.phone .news-list li h2{
+	color: #363636;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: .44rem;
+	text-align: center;
+}
+.news-list .time{
+	display: none;
+}
+.phone .news-list .time{
+	display: block;
+	color: #363636;
+	font-size: 12px;
+	position: relative;
+	width: 1.64rem;
+	margin: .3rem auto .4rem;
+	font-weight: bold;
+	text-align: center;
+}
+.phone .news-list .time i{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 110px;
+	height: 2px;
+	background: #535353;
+	margin: auto;
+}
+.phone .news-list .time i:nth-of-type(1){
+	left: -110px;
+	background: linear-gradient(to left, #000000 0%,#000000 30%,#ffffff 100%);
+}
+.phone .news-list .time i:nth-of-type(2){
+	right: -110px;
+	background: linear-gradient(to right, #000000 0%,#000000 30%,#ffffff 100%);
+}
+.phone .news-list a p{
+	width: 100%;
+	color: #525252;
+	line-height: .38rem;
+	font-size: 14px;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+/*内容页样式*/
+.pc .show-page-title{
+	display: block;
+	margin-bottom: .8rem;
+}
+.show-page-title{
+	display: none;
+}
+.show-page-title h1{
+	text-align: center;
+	color: #5E5E5E;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: .7rem;
+}
+.show-page-title .page-title-mes{
+	margin: .2rem auto 0;
+	font-size: 0;
+	position: relative;
+	text-align: center;
+	color: #737373;
+}
+.show-page-title .page-title-mes>*{
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.show-page-title .ball{
+	width: .2rem;
+	height: .2rem;
+	background: #C5C5C5;
+	border-radius: 50%;
+	position: relative;
+}
+.show-page-title .name{
+	color: #76AAD1;
+	margin: 0 .12rem;
+}
+.show-page-title .date{
+	margin-left: .2rem;
+	position: relative;
+}
+.show-page-title .page-title-mes .line{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: .4rem;
+	height: 1px;
+	background: #C5C5C5;
+}
+.show-page-title .ball .line{
+	left: -.5rem;
+}
+
+.show-page-title .date .line{
+	right: -.5rem;
+}
+.news-show-content *{
+	word-break: break-all;
+}
+.phone .page-show-main{
+	min-height: 50vh;
+}
+.pc .page-show-main{
+	background: #fff;
+	width: 12rem;
+	height: auto;
+	margin: 2rem auto .3rem;
+	min-height: 10vh;
+	box-sizing: border-box;
+	padding: 0 .8rem .4rem;
+}
+.phone .page-show-main{
+	box-sizing: border-box;
+	padding: 2.9rem .3rem .3rem;
+	font-size: 14px;
+}

@@ -289,7 +289,7 @@ body .particletext.bubbles > .particle {
 .pc-nav-list li a{
 	display: block;
 	color: #124C82;
-	height: .2rem;
+	height: 100%;
 	line-height: .2rem;
 	font-size: 16px;
 	font-weight: bold;
@@ -316,8 +316,9 @@ body .particletext.bubbles > .particle {
 .phone-nav .hanbao{
 	display: block;
 	float: right;
-	width: .82rem;
-	height: .42rem;
+	width: .6rem;
+	/*height: .42rem;*/
+	height: auto;
 	margin-top: .25rem;
 	margin-right: .3rem;
 }
@@ -550,4 +551,62 @@ body .particletext.bubbles > .particle {
 }
 .pc .icon-box-wrap:hover .icon-box .icon_base{
 	display: none;
+}
+
+/*内容页公共样式*/
+/*pc 端*/
+.pc .pc-page-title{
+	display: block;
+}
+.pc-page-title{
+	display: none;
+	margin-top: 1.34rem;
+	text-align: center;
+}
+.pc-page-title>h1{
+	color: #124C82;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.pc-page-title>h2{
+	color: #919191;
+	text-align: center;
+	font-size: 14px;
+	margin-top: .14rem;
+}
+.pc-page-title>h2>b{
+	display: inline-block;
+	margin: 0 .16rem;
+	font-weight: normal;
+}
+.pc-page-title>p{
+	color: #5B5B5B;
+	font-size: 14px;
+	margin-top: .34rem;
+	text-align: center;
+}
+/*移动端*/
+.phone-page-title{
+	margin-top: 1.76rem;
+	box-sizing: border-box;
+	padding: 0 .3rem;
+	display: none;
+}
+.phone .phone-page-title{
+	display: block;
+}
+.phone-page-title-box{
+	margin-left: 1rem;
+	height: .75rem;
+	border-left: .06rem solid #535353;
+	color: #535353;
+	padding-left: .16rem;
+}
+.phone-page-title-box>h1{
+	font-size: 16px;
+}
+.phone-page-title-box>h2{
+	/*margin-top: .16rem;*/
+	font-size: 14px;
 }
