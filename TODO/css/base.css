@@ -297,6 +297,24 @@ body .particletext.bubbles > .particle {
 .pc-nav-list li.lan a span{
 	margin-left: .04rem;
 }
+.nav .phone-lan{
+	position: fixed;
+	right: .5rem;
+	top: 1.2rem;
+}
+.nav .phone-lan a{
+	font-size: 0;
+	display: block;
+	color: #5DA5D3!important;
+}
+.nav .phone-lan a>*{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+}
+.nav .phone-lan a span{
+	margin-left: .1rem;
+}
 .pc-nav-list li a{
 	display: block;
 	color: #124C82;
@@ -341,6 +359,7 @@ body .particletext.bubbles > .particle {
 	width: 100%;
 	height: auto;
 	background: #252525;
+	z-index: 4;
 }
 .phone-nav-list li{
 	box-sizing: border-box;

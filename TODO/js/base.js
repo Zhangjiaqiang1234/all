@@ -81,6 +81,22 @@ window.baseJs.setCookie('todo-lan',lan,2592000000);
 
 $(document).ready(function(){
 
+    // 设置双语设置切换效果
+    $('.lan').click(function(){
+        var url = window.location.href;
+        // 反转语言包
+        lan = (lan==='en')?'cn':'en';
+        // 是否存在查询字符串
+        var lanQuery = window.baseJs._getQueryString('lan');
+        if(!lanQuery){ // 如果没有 lan 查询字符串
+            var appendStr = (url.indexOf("?")!=-1)?'&':'?';
+            window.location.href = window.location.href+appendStr+'lan='+lan;
+        }else{ // 如果有查询字符串那么则替换
+            var url = window.location.href.replace(/lan=(en|cn)/i,'lan='+lan);
+            window.location.href = url;
+        }
+    });
+
     // logo 粒子动效
     jQuery.rnd = function(m,n) {
         m = parseInt(m);
