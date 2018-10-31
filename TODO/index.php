@@ -24,7 +24,7 @@
 			<div class="textcontainer">
 				<span class="logo particletext bubbles"></span>
 			</div>
-			<p id="banner-text" class="text">TODO速度，专注区块链服务<?=$lan['bannerTitle']?></p>
+			<p id="banner-text" class="text"><?=$lan['slogan']?></p>
 			<img id="big-ball" class="big-ball" src="img/ball.png"></img>
 			<img id="sm-ball" class="sm-ball" src="img/ball.png"></img>
 		</div>
@@ -37,7 +37,7 @@
 			<div class="logo-box textcontainer">
 				<span class="logo particletext bubbles"></span>
 			</div>
-			<p class="text">TODO速度，专注区块链服务</p>
+			<p class="text"><?=$lan['slogan']?></p>
 		</div>
 	</div>
 	<!-- 移动端banner结束 -->
@@ -49,7 +49,7 @@
 		<!-- 关于我们开始 -->
 		<div class="about base-wrap jump-pos">
 			<img class="base-title" src="img/sm-title/1.png"></img>
-			<p class="text">    ToDo Incubator成立于澳州，是一家专业为区块链企业提供全方位深度商业服务的公司，核心业务包括：项目孵化、企业咨询、区块链一级、二级市场投资、量化投资等服务。ToDo Inculbator放眼全球，拥有优秀的国际化团队，以技术、人才、资本、国内外媒体资源为优势，为区块链初创企业提供快而有力的加速服务。</p>
+			<p class="text"><?=$lan['about_us']?></p>
 			<!-- 立方体 -->
 			<div class="cube-box scroll">
 			  <ul class="cube">
@@ -103,12 +103,12 @@
 		<div class="plate base-wrap jump-pos">
 			<img class="base-title" src="img/sm-title/2.png"></img>
 			<ul class="title-list">
-				<li>重技术</li>
-				<li>强团队</li>
-				<li>深运营</li> 
+				<li><?=$lan['plate_title1']?></li>
+				<li><?=$lan['plate_title2']?></li>
+				<li><?=$lan['plate_title3']?></li> 
 			</ul>	
 			<ul class="plate-list">
-				<li class="icon-box-wrap">
+				<li class="icon-box-wrap clearfix">
 					<div class="logo-box">
 						<div class="icon-box scroll">
 							<!-- 实线圆圈 -->
@@ -124,11 +124,11 @@
 						</div>	
 					</div>
 					<div class="plate-con">
-						<h2 class="scroll">项目孵化：重技术，强团队，深运营 </h2>
-						<p class="text scroll">为区块链初创项目提供行业全方位服务，包括对项目团队进行业务模式的设计辅导、战略梳理规划、区块链技术支持、资 本和交易所对接、合规化、媒体宣传、市场推广、法律咨询等服务。成功孵化过EtherZero、ABO、福布斯、obpro、vt、bdd等近十个项目。</p>
+						<h2 class="scroll"><?=$lan['plate_list1_h2']?></h2>
+						<p class="text scroll"><?=$lan['plate_list1_p']?></p>
 					</div>
 				</li>
-				<li class="icon-box-wrap">
+				<li class="icon-box-wrap clearfix">
 					<div class="logo-box">
 						<div class="logo-box">
 						<!-- icon -->
@@ -145,11 +145,11 @@
 					</div>
 					</div>
 					<div class="plate-con">
-						<h2 class="scroll">资本投资：专注投资早期区块链项目和企业</h2>
-						<p class="text scroll">TODO旗下的ToDo Fund是一家专注于数字货币行业投资的新型投资机构，我们拥有多年数字货币投资经验、领先行业的 投资模型、投资工具。ToDo Fund将秉承投融资、风险控制、资产管理，“三位一体”的运作模式，投资主流概念和潜力型项目，如底层工链、分布式能源、溯源、物联网等。</p>
+						<h2 class="scroll"><?=$lan['plate_list2_h2']?></h2>
+						<p class="text scroll"><?=$lan['plate_list2_p']?></p>
 					</div>
 				</li>
-				<li class="icon-box-wrap">
+				<li class="icon-box-wrap clearfix">
 					<div class="logo-box">
 						<!-- icon -->
 						<div class="icon-box scroll">
@@ -164,8 +164,8 @@
 						</div>	
 					</div>
 					<div class="plate-con">
-						<h2 class="scroll">咨询服务：为初创企业赋能</h2>
-						<p class="text scroll">为区块链初创企业、机构以及计划转型区块链的企业提供咨询、培训、技术支持等服务，ToDo Incubator以丰富的行业 经验和雄厚的资源，助力区块链企业和个人爱好者更好更快融入区块链行业。</p>
+						<h2 class="scroll"><?=$lan['plate_list3_h2']?></h2>
+						<p class="text scroll"><?=$lan['plate_list3_p']?></p>
 					</div>
 				</li>
 			</ul>	
@@ -209,7 +209,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="two icon-box-wrap">
+					<li class="two icon-box-wrap clearfix">
 						<!-- icon -->
 						<div class="icon-box scroll ad-right-logo">
 							<div class="solid-line">
@@ -222,11 +222,11 @@
 							</div>
 						</div>	
 						<div class="ad-content">
-							<h2 class="scroll">团队</h2>
-							<p class="text scroll">名校海归成员，<br/>多年区块链从业经验，激情饱满</p>
+							<h2 class="scroll"><?=$lan['advantage_list1_h2']?></h2>
+							<p class="text scroll"><?=$lan['advantage_list1_p']?></p>
 						</div>	
 					</li>
-					<li class="three icon-box-wrap">
+					<li class="three icon-box-wrap clearfix">
 						<!-- icon -->
 						<div class="icon-box scroll ad-right-logo">
 							<div class="solid-line">
@@ -239,11 +239,11 @@
 							</div>
 						</div>	
 						<div class="ad-content">
-							<h2 class="scroll">资源</h2>
-							<p class="text scroll">主流交易所，快速上币<br/>知名VC，战略投资<br/>行业IP，强势加盟<br/>媒体资源，覆盖百万用户</p>
+							<h2 class="scroll"><?=$lan['advantage_list2_h2']?></h2>
+							<p class="text scroll"><?=$lan['advantage_list2_p']?></p>
 						</div>	
 					</li>
-					<li class="four icon-box-wrap">
+					<li class="four icon-box-wrap clearfix">
 						<!-- icon -->
 						<div class="icon-box scroll ad-right-logo">
 							<div class="solid-line">
@@ -256,16 +256,16 @@
 							</div>
 						</div>
 						<div class="ad-content">
-							<h2 class="scroll">经验</h2>
-							<p class="text scroll">数十个成功孵化推广案例，<br/>累计百倍投资收益率</p>
+							<h2 class="scroll"><?=$lan['advantage_list3_h2']?></h2>
+							<p class="text scroll"><?=$lan['advantage_list3_p']?></p>
 						</div>	
 					</li>
 				</ul>
 			</div>
 			<!-- 小标题 -->
-			<h2 class="advan-title">服务过的项目<i></i></h2>
+			<h2 class="advan-title"><?=$lan['advan-title']?><i></i></h2>
 			<!-- 主导孵化 -->
-			<h2 class="hatch-title">主导孵化</h2>
+			<h2 class="hatch-title"><?=$lan['dominant_hatchery']?></h2>
 			<div class="hatch scroll">
 				<div class="hatch-side hatch-left">
 					<ul class="hatch-list">
@@ -305,7 +305,7 @@
 				</div>
 			</ul>
 			<!-- 参与孵化 -->
-			<h2 class="join-hatch-title hatch-title">参与孵化与市场推广项目</h2>
+			<h2 class="join-hatch-title hatch-title"><?=$lan['join_hatch']?></h2>
 			<ul class="join-hatch-list">
 				<div class="el-row scroll bottom2top">
 					<li><img src="img/partake-hatch/1_03.png"></li>
@@ -388,7 +388,7 @@
 
 		<!-- 新闻资讯开始 -->
 		<div class="news base-wrap jump-pos">
-			<a class="news-seemore" href="news.php">查看更多>></a>
+			<a class="news-seemore" href="news.php"><?=$lan['see_more']?>>></a>
 			<img class="base-title" src="img/sm-title/5.png"></img>
 			<ul class="news-list pc">
 				<!-- PC端新闻资讯 -->

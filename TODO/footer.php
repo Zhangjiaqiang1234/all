@@ -6,25 +6,25 @@
 		<!-- 中间内容 -->
 		<div class="footer-main">
 			<dl>
-				<dt>关于我们</dt>
-				<dd><a href="">公司简介</a></dd>
-				<dd><a href="">职位发布</a></dd>
+				<dt><?=$lan['about']?></dt>
+				<dd><a href=""><?=$lan['company_profile']?></a></dd>
+				<dd><a href=""><?=$lan['job_push']?></a></dd>
 			</dl>
 			<dl>
-				<dt>帮助与支持</dt>
-				<dd><a href="">常见问题解答</a></dd>
-				<dd><a href="">服务条款</a></dd>
-				<dd><a href="">隐私政策</a></dd>
+				<dt><?=$lan['help']?></dt>
+				<dd><a href=""><?=$lan['common_problem']?></a></dd>
+				<dd><a href=""><?=$lan['terms_of_service']?></a></dd>
+				<dd><a href=""><?=$lan['privacy_policy']?></a></dd>
 			</dl>
 			<dl>
-				<dt>资源</dt>
-				<dd><a href="">公司简介</a></dd>
-				<dd><a href="">职位发布</a></dd>
+				<dt><?=$lan['resource']?></dt>
+				<dd><a href=""><?=$lan['company_profile']?></a></dd>
+				<dd><a href=""><?=$lan['job_push']?></a></dd>
 			</dl>
 			<dl>
-				<dt>联系我们</dt>
-				<dd><a href="">公司简介</a></dd>
-				<dd><a href="">职位发布</a></dd>
+				<dt><?=$lan['contact']?></dt>
+				<dd><a href=""><?=$lan['company_profile']?></a></dd>
+				<dd><a href=""><?=$lan['job_push']?></a></dd>
 			</dl>
 		</div>
 		<!-- 右侧联系方式 -->

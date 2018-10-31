@@ -13,7 +13,7 @@ $(document).ready(function(){
     			+'<div class="img-box">'
     			+'<img src="'+window.baseJs.imageUrl+data.image+'">'
     			+'</div>'
-    			+'<h2>'+data.title+'</h2>'
+    			+'<h2>'+(window.lan==="cn"?data.title:data.e_title)+'</h2>'
     			+'<div class="time"><i></i><span>'+window.baseJs.getNowFormatDate(data.updatetime*1000)+'</span><i></i></div>'
     			+'<p class="text slh1" title="'+data.describe+'">'+data.describe+'</p>'
     			+'</a>'

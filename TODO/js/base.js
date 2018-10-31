@@ -59,25 +59,29 @@ window.baseJs = { // 封装部分方法
     imageUrl:'http://todoblock.io'
 };
 
-var lan = window.baseJs._getQueryString('lan'),
+window.lan = window.baseJs._getQueryString('lan'),
     lanCookie = window.baseJs.getCookie('todo-lan');
-if(undefined == lan){ // 如果不存在参数，那么查询cookie
+
+if(undefined == window.lan){ // 如果不存在参数，那么查询cookie
     if(lanCookie === 0){ // 不存在 cookie
-        lan = 'cn'; // 默认为中文
+        window.lan = 'cn'; // 默认为中文
+        window.baseJs.setCookie('todo-lan','cn',2592000000);
     }else{ // 如果存在 cookie
         if(lanCookie === 'en'){ // 如果是需要显示英文版
             // 拼接参数
             var url=location.search;
             var appendStr = (url.indexOf("?")!=-1)?'&':'?';
+            // 设置cookie
+            window.lan = 'en';
+            window.baseJs.setCookie('todo-lan','en',2592000000);
             window.location.href = window.location.href+appendStr+'lan=en';
-            lan = 'en';
         }else{
-            lan = 'cn';
+            window.lan = 'cn';
+            window.baseJs.setCookie('todo-lan','cn',2592000000);
         }
     }
 }
-
-window.baseJs.setCookie('todo-lan',lan,2592000000);
+console.log(window.lan,lanCookie)
 
 $(document).ready(function(){
 
@@ -85,14 +89,18 @@ $(document).ready(function(){
     $('.lan').click(function(){
         var url = window.location.href;
         // 反转语言包
-        lan = (lan==='en')?'cn':'en';
+        window.lan = (window.lan==='en')?'cn':'en';
         // 是否存在查询字符串
         var lanQuery = window.baseJs._getQueryString('lan');
         if(!lanQuery){ // 如果没有 lan 查询字符串
             var appendStr = (url.indexOf("?")!=-1)?'&':'?';
-            window.location.href = window.location.href+appendStr+'lan='+lan;
+            // 设置cookie
+            window.baseJs.setCookie('todo-lan',window.lan,2592000000);
+            window.location.href = window.location.href+appendStr+'lan='+window.lan;
         }else{ // 如果有查询字符串那么则替换
-            var url = window.location.href.replace(/lan=(en|cn)/i,'lan='+lan);
+            var url = window.location.href.replace(/lan=(en|cn)/i,'lan='+window.lan);
+            // 设置cookie
+            window.baseJs.setCookie('todo-lan',window.lan,2592000000);
             window.location.href = url;
         }
     });
