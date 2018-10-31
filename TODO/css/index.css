@@ -113,7 +113,7 @@
 	display: block;
 	width: 1.27rem;
 	height: .67rem;
-	background: url('../img/nav-logo.png') no-repeat;
+	background: url('../img/nav-logo.svg') no-repeat;
 	background-size: 100% auto;
 }
 .phone-banner-con .text{
@@ -924,13 +924,17 @@ body .bottom2top.scroll.active>li{
 	4		7
 		9
 */
+.point{
+	position: relative;
+	z-index: 199;
+}
 .point li{
 	width: 20px;
 	height: 20px;
 	background: #535353;
 	border-radius: 50%;
 	position: absolute;
-	z-index: 100;
+	z-index: 200;
 	left: 0;
 	top: 0;
 	opacity: 0;

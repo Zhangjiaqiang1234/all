@@ -3,7 +3,7 @@
 <head>
 	<title>首页</title>
 	<?php include 'baseMeta.php';?>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css?v=1">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 			<img id="mountain1" class="pc-mountain1" src="img/mountain1.png">
 			<img id="mountain2" class="pc-banner-bg" src="img/mountain2.png">
 			<img id="mountain3" class="pc-mountain3" src="img/mountain3.png">
-			<img id="banner-logo" class="logo" src="img/banner-logo.png"></img>
+			<img id="banner-logo" class="logo" src="img/banner-logo.svg"></img>
 			<div class="textcontainer">
 				<span class="logo particletext bubbles"></span>
 			</div>
@@ -48,7 +48,7 @@
 		
 		<!-- 关于我们开始 -->
 		<div class="about base-wrap jump-pos">
-			<img class="base-title" src="img/sm-title/1.png"></img>
+			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>1.png"></img>
 			<p class="text"><?=$lan['about_us']?></p>
 			<!-- 立方体 -->
 			<div class="cube-box scroll">
@@ -101,7 +101,7 @@
 
 		<!-- 业务板块开始 -->
 		<div class="plate base-wrap jump-pos">
-			<img class="base-title" src="img/sm-title/2.png"></img>
+			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>2.png"></img>
 			<ul class="title-list">
 				<li><?=$lan['plate_title1']?></li>
 				<li><?=$lan['plate_title2']?></li>
@@ -175,7 +175,7 @@
 
 		<!-- 我们的优势开始 -->
 		<div class="advantage base-wrap jump-pos">
-			<img class="base-title" src="img/sm-title/3.png"></img>
+			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>3.png"></img>
 			<!-- 优势板块 -->
 			<div class="ad-con">
 				<div class="ad-left">
@@ -339,7 +339,7 @@
 
 		<!-- 战略合作伙伴开始 -->
 		<div class="cooper base-wrap jump-pos">
-			<img class="base-title" src="img/sm-title/4.png"></img>
+			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>4.png"></img>
 			<ul class="join-hatch-list phone">
 				<div class="el-row scroll bottom2top">
 					<li><img src="img/cooper/1_03.png"></li>
@@ -389,7 +389,7 @@
 		<!-- 新闻资讯开始 -->
 		<div class="news base-wrap jump-pos">
 			<a class="news-seemore" href="news.php"><?=$lan['see_more']?>>></a>
-			<img class="base-title" src="img/sm-title/5.png"></img>
+			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>5.png"></img>
 			<ul class="news-list pc">
 				<!-- PC端新闻资讯 -->
 			</ul>

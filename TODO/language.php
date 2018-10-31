@@ -1,6 +1,6 @@
 <?php
 	// 双语设置语言配置文件
-	// error_reporting(0);
+	error_reporting(0);
 
 	// 中文
 	$cn = array(
@@ -13,7 +13,7 @@
 		'news' => '新闻资讯',
 		'join_us' => '加入我们',
 		'slogan' => 'TODO速度，专注区块链服务',	// banner
-		'about_us' => 'ToDo Incubator成立于澳州，是一家专业为区块链企业提供全方位深度商业服务的公司，核心业务包括：项目孵化、企业咨询、区块链一级、二级市场投资、量化投资等服务。ToDo Incubator放眼全球，拥有优秀的国际化团队，以技术、人才、资本、国内外媒体资源为优势，为区块链初创企业提供快而有力的加速服务。',
+		'about_us' => 'ToDo Block成立于澳州，是一家专业为区块链企业提供全方位深度商业服务的公司，核心业务包括：项目孵化、企业咨询、区块链一级、二级市场投资、量化投资等服务。ToDo Block放眼全球，拥有优秀的国际化团队，以技术、人才、资本、国内外媒体资源为优势，为区块链初创企业提供快而有力的加速服务。',
 		'plate_title1' => '重技术', // 关于我们板块
 		'plate_title2' => '强团队',
 		'plate_title3' => '深运营',
@@ -22,7 +22,7 @@
 		'plate_list2_h2' => '资本投资：专注投资早期区块链项目和企业',
 		'plate_list2_p' => 'TODO旗下的ToDo Fund是一家专注于数字货币行业投资的新型投资机构，我们拥有多年数字货币投资经验、领先行业的投资模型、投资工具。ToDo Fund将秉承投融资、风险控制、资产管理，“三位一体”的运作模式，投资主流概念和潜力型项目，如底层公链、分布式能源、溯源、物联网等。',
 		'plate_list3_h2' => '咨询服务：为初创企业赋能',
-		'plate_list3_p' => '为区块链初创企业、机构以及计划转型区块链的企业提供咨询、培训、技术支持等服务，ToDo Incubator以丰富的行业经验和雄厚的资源，助力区块链企业和个人爱好者更好更快的融入区块链行业。',
+		'plate_list3_p' => '为区块链初创企业、机构以及计划转型区块链的企业提供咨询、培训、技术支持等服务，ToDo Block以丰富的行业经验和雄厚的资源，助力区块链企业和个人爱好者更好更快的融入区块链行业。',
 		'advantage_list1_h2' => '团队', // 我们的优势板块
 		'advantage_list1_p' => '名校海归成员，<br/>多年区块链从业经验，激情饱满',
 		'advantage_list2_h2' => '资源',
@@ -63,7 +63,7 @@
 		'plate_list2_h2' => 'Investment Aargeted At Blockchain Startups',
 		'plate_list2_p' => 'ToDo Fund, a subsidiary of ToDo Block, focuses on investment in the digital currency market. With a leading investment model, we target at high-tech start-up projects and companies in the blockchain industry. As an early investor in the industry, we have stood out with an operation model that integrate financing, risk control and digital assets management to invest mainstream concept or potential high-tech start-up projects such as infrastructure platform for Dapp, distributed energy, blockchain traceability, Internet of Thing.',
 		'plate_list3_h2' => 'Consulting Empower The Real Economy',
-		'plate_list3_p' => 'We provide training and consulting services for blockchain start-ups as well as technical support for companies in need. ToDo Incubator is committed to enabling blockchain innovation and enhancing people\'s blockchain skills by virtue of rich experience and innovative resources.',
+		'plate_list3_p' => 'We provide training and consulting services for blockchain start-ups as well as technical support for companies in need. ToDo Block is committed to enabling blockchain innovation and enhancing people\'s blockchain skills by virtue of rich experience and innovative resources.',
 		'advantage_list1_h2' => 'Team',
 		'advantage_list1_p' => 'Strong Team Made Up of Passionate,  Enterprising & Professional Post-90s Blockchain Investors From Renowned Universities At Home & Abroad',
 		'advantage_list2_h2' => 'Resources',

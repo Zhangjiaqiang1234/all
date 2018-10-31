@@ -38,7 +38,7 @@
 			<!-- email -->
 			<div class="footer-email">
 				<img src="img/email.png">
-				<span>support@todo.com</span>
+				<span>@todoblock.io</span>
 			</div>	
 		</div>
 	</div>	

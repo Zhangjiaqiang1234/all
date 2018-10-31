@@ -273,7 +273,7 @@ body .particletext.bubbles > .particle {
 	display: block;
 	width: 1.27rem;
 	height: .67rem;
-	background: url('../img/nav-logo.png') no-repeat;
+	background: url('../img/nav-logo.svg') no-repeat;
 	background-size: 100% auto;
 }
 .pc-nav-list{
@@ -293,6 +293,14 @@ body .particletext.bubbles > .particle {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 14px;
+}
+.pc-nav-list li.lan a img{
+	width: 24px;
+	height: 24px;
+}
+.phone-lan a img{
+	width: .48rem;
+	height: .48rem;
 }
 .pc-nav-list li.lan a span{
 	margin-left: .04rem;
@@ -469,7 +477,8 @@ body .particletext.bubbles > .particle {
 }
 .phone .footer-main{
 	margin-top: .34rem;
-	width: 5.4rem;
+	/*width: 5.4rem;*/
+	width: 100%;
 }
 .phone .footer-main dt{
 	font-size: 14px;
