@@ -1013,6 +1013,7 @@ body .bottom2top.scroll.active>li{
 .point{
 	position: relative;
 	z-index: 199;
+	transform: translateZ(1000px);
 }
 .point li{
 	width: 20px;
