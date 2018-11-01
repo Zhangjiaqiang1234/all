@@ -3,7 +3,7 @@
 <head>
 	<title>首页</title>
 	<?php include 'baseMeta.php';?>
-	<link rel="stylesheet" type="text/css" href="css/index.css?v=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 
@@ -180,16 +180,73 @@
 			<div class="ad-con">
 				<div class="ad-left">
 					<!-- 立方体 -->
-					<div class="container">
-						<div class="ad-cube scroll">
-							<div class="sides">
-								<div class="top"></div>
-								<div class="right"></div>
-								<div class="bottom"></div>
-								<div class="left"></div>
-								<div class="front"></div>
-								<div class="back"></div>
-							</div>
+					<div class="container clearfix">
+						<div class="el-row clearfix border-bottom">
+							<li class="icon-box-wrap clearfix">
+								<div class="ad-cube scroll">
+									<div class="sides">
+										<div class="top"></div>
+										<div class="right"></div>
+										<div class="bottom"></div>
+										<div class="left"></div>
+										<div class="front"></div>
+										<div class="back"></div>
+									</div>
+								</div>
+							</li>
+							<li class="icon-box-wrap border-left clearfix">
+								<!-- icon -->
+								<div class="icon-box scroll ad-right-logo">
+									<div class="solid-line">
+										<div class="circle"></div>
+										<div class="circle"></div>
+									</div>
+									<div class="line-box">
+										<img class="icon_base" src="img/icon_team.png">
+										<img class="icon_light" src="img/icon_team_blue.png">
+									</div>
+								</div>	
+								<div class="ad-content">
+									<h2 class="scroll"><?=$lan['advantage_list1_h2']?></h2>
+									<p class="text scroll"><?=$lan['advantage_list1_p']?></p>
+								</div>
+							</li>
+						</div>
+						<div class="el-row clearfix">
+							<li class="icon-box-wrap border-right clearfix">
+								<!-- icon -->
+								<div class="icon-box scroll ad-right-logo">
+									<div class="solid-line">
+										<div class="circle"></div>
+										<div class="circle"></div>
+									</div>
+									<div class="line-box">
+										<img class="icon_base" src="img/icon_team.png">
+										<img class="icon_light" src="img/icon_team_blue.png">
+									</div>
+								</div>	
+								<div class="ad-content">
+									<h2 class="scroll"><?=$lan['advantage_list2_h2']?></h2>
+									<p class="text scroll"><?=$lan['advantage_list2_p']?></p>
+								</div>
+							</li>
+							<li class="icon-box-wrap border-left clearfix">
+								<!-- icon -->
+								<div class="icon-box scroll ad-right-logo">
+									<div class="solid-line">
+										<div class="circle"></div>
+										<div class="circle"></div>
+									</div>
+									<div class="line-box">
+										<img class="icon_base" src="img/icon_team.png">
+										<img class="icon_light" src="img/icon_team_blue.png">
+									</div>
+								</div>	
+								<div class="ad-content">
+									<h2 class="scroll"><?=$lan['advantage_list3_h2']?></h2>
+									<p class="text scroll"><?=$lan['advantage_list3_p']?></p>
+								</div>
+							</li>
 						</div>
 					</div>
 				</div>
@@ -210,6 +267,8 @@
 						</div>
 					</li>
 					<li class="two icon-box-wrap clearfix">
+						<!-- 线 -->
+						<div class="line"></div>
 						<!-- icon -->
 						<div class="icon-box scroll ad-right-logo">
 							<div class="solid-line">
@@ -224,9 +283,11 @@
 						<div class="ad-content">
 							<h2 class="scroll"><?=$lan['advantage_list1_h2']?></h2>
 							<p class="text scroll"><?=$lan['advantage_list1_p']?></p>
-						</div>	
+						</div>
 					</li>
 					<li class="three icon-box-wrap clearfix">
+						<!-- 线 -->
+						<div class="line"></div>
 						<!-- icon -->
 						<div class="icon-box scroll ad-right-logo">
 							<div class="solid-line">
@@ -387,7 +448,7 @@
 
 
 		<!-- 新闻资讯开始 -->
-		<div class="news base-wrap jump-pos">
+		<div class="news base-wrap">
 			<a class="news-seemore" href="news.php"><?=$lan['see_more']?>>></a>
 			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>5.png"></img>
 			<ul class="news-list pc">
@@ -406,6 +467,6 @@
 	<?php include 'footer.php';?>
 
 <script src="js/bodymovin.min.js"></script>
-<script src="js/index.js"></script>
+<script src="js/index.js?v=2"></script>
 </body>
 </html>

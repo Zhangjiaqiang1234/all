@@ -157,7 +157,7 @@ $(document).ready(function(){
 	    			+'<img src="'+window.baseJs.imageUrl+data.image+'">'
 	    			+'</div>'
 	    			+'<h2>'+(window.lan==="cn"?data.title:data.e_title)+'</h2>'
-	    			+'<p class="text slh1" title="'+data.describe+'">'+data.describe+'</p>'
+	    			+'<p class="text slh1" title="'+(window.lan==="cn"?data.describe:data.e_describe)+'">'+(window.lan==="cn"?data.describe:data.e_describe)+'</p>'
 	    			+'</a>'
 	    			+'</li>';
 	    			if((i+1)%3==0){
@@ -186,7 +186,7 @@ $(document).ready(function(){
 	    			+'<img src="'+window.baseJs.imageUrl+data.image+'">'
 	    			+'</div>'
 	    			+'<h2>'+(window.lan==="cn"?data.title:data.e_title)+'</h2>'
-	    			+'<p class="text slh1" title="'+data.describe+'">'+data.describe+'</p>'
+	    			+'<p class="text slh1" title="'+(window.lan==="cn"?data.describe:data.e_describe)+'">'+(window.lan==="cn"?data.describe:data.e_describe)+'</p>'
 	    			+'</a>'
 	    			+'</li>';
 	    			if((i+1)%2==0){

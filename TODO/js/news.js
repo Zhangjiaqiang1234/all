@@ -15,7 +15,7 @@ $(document).ready(function(){
     			+'</div>'
     			+'<h2>'+(window.lan==="cn"?data.title:data.e_title)+'</h2>'
     			+'<div class="time"><i></i><span>'+window.baseJs.getNowFormatDate(data.updatetime*1000)+'</span><i></i></div>'
-    			+'<p class="text slh1" title="'+data.describe+'">'+data.describe+'</p>'
+    			+'<p class="text slh1" title="'+(window.lan==="cn"?data.describe:data.e_describe)+'">'+(window.lan==="cn"?data.describe:data.e_describe)+'</p>'
     			+'</a>'
     			+'</li>';
     		}

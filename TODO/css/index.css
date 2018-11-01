@@ -137,6 +137,9 @@
 	height: .9rem;
 }
 /*关于我们*/
+.about{
+	overflow: hidden;
+}
 .about .text{
 	color: #8A8A8A;
 	line-height: .28rem;
@@ -183,8 +186,14 @@
 }
 .phone .title-list li{
 	width: 2.16rem;
-	height: .68rem;
-	line-height: .64rem;
+	height: .88rem;
+	line-height: 1em;
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	display: flex;
+	/*-webkit-line-clamp:2;*/
+	align-items: center;
+	justify-content: center;
 }
 .base-wrap{
 	padding-top: 1px;
@@ -314,23 +323,18 @@
 .ad-con{
 	margin-top: .5rem;
 	width: 100%;
-	height: 4.4rem;
+	height: auto;
 	box-sizing: border-box;
 }
 .phone .ad-con{
 	height: auto;
-	margin-top: 1rem;
+	margin-top: 0rem;
 }
 .ad-con .ad-left{
-	float: left;
-	width: 50%;
-	height: 100%;
+	width: 7.2rem;
 	position: relative;
 }
-.phone .ad-con .ad-left{
-	display: none;
-}
-.ad-con .ad-left img{
+.ad-con .ad-left>img{
 	display: block;
 	position: absolute;
 	left: 0;
@@ -340,15 +344,56 @@
 	margin: auto;
 	height: 2.76rem;
 }
+.pc .ad-left .el-row{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.pc .ad-left .border-bottom{
+	border-bottom: 1px dashed #797979;
+}
+.pc .ad-left .icon-box-wrap{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+.pc .ad-left .icon-box{
+	margin: .46rem auto 0;
+}
+.pc .ad-left .border-left{
+	border-left: 1px dashed #797979;
+}
+.pc .ad-left .border-right{
+	transform: translateX(1px);
+	border-right: 1px dashed #797979;
+}
+
+
+
+
+
+.pc .ad-con .ad-right{
+	display: none;
+}
+.phone .ad-left{
+	display: none;
+}
 .ad-con .ad-right{
 	float: left;
 	width: 50%;
 	height: 100%;
 }
 .phone .ad-con .ad-right{
+	margin-top: .7rem;
 	float: none;
 	width: 100%;
-	height: 8rem;
+	height: auto;
+}
+.phone .ad-con .ad-right:after{
+	content: '';
+	display: block;
+	clear: both;
 }
 .pc .phone-logo{
 	display: none;
@@ -357,6 +402,9 @@
 	width: 100%;
 	box-sizing: border-box;
 	position: relative;
+}
+.phone .ad-right .phone-logo{
+	margin-bottom: .7rem;
 }
 .pc .ad-right li:hover .ad-content h2,
 .pc .ad-right li:hover .ad-content .text{
@@ -367,10 +415,25 @@
 	min-height: 33.3333%;
 	position: relative;
 }
-.phone .ad-right li{
+.phone .ad-right .icon-box-wrap{
 	float: left;
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: auto;
+	padding-bottom: .4rem;
+	position: relative;
+}
+.phone .ad-right .icon-box-wrap .line{
+	position: absolute;
+	left: .9rem;
+	top: 0;
+	width: 0;
+	height: 100%;
+	border-left: 1px dashed #787878;
+}
+.phone .ad-right li:after{
+	content: '';
+	display: block;
+	clear: both;
 }
 .phone .phone-logo img{
 	height: 2.46rem;
@@ -382,24 +445,36 @@
 	bottom: 0;
 	margin: auto;
 }
-.phone .ad-right li.one,
-.phone .ad-right li.two{
-	border-bottom: 1px dashed #C6C6C6; 
-}
-.phone .ad-right li.one,
-.phone .ad-right li.three{
-	border-right: 1px dashed #C6C6C6; 
-}
 
 .ad-right .ad-right-logo{
 	display: block;
 	float: left;
 	margin-top: 0.08rem;
 }
+.phone .ad-right .ad-right-logo{
+	margin-top: 0;
+}
 .ad-content{
 	float: left;
 	width: 2rem;
 	margin-left: .3rem;
+}
+.pc .ad-left .ad-content{
+	float: none;
+	width: 3.3rem;
+	height: auto;
+	margin: .15rem auto 0;
+}
+.pc .ad-left .ad-content h2{
+	margin-top: .07rem;
+	text-align: center;
+}
+.pc .ad-left .icon-box-wrap{
+	padding-bottom: .5rem;
+}
+.pc .ad-left .icon-box{
+	width: .6rem;
+	height: .6rem;
 }
 .ad-content h2{
 	text-align: left;
@@ -417,6 +492,7 @@
 	color: #797979;
 	line-height: .2rem;
 	font-size: 16px;
+	word-break: break-all;
 }
 .pc .ad-content .text{
 	transition: all .8s .2s cubic-bezier(.21,.97,.78,1.32);
@@ -429,28 +505,37 @@
 	transform: translateX(0);
 }
 .phone .ad-right-logo{
-	float: none;
-	margin: .46rem auto 0;
+	margin-left: .3rem;
+	position: relative;
+	z-index: 2;
+	background: #fff;
 }
 .phone .ad-content{
-	float: none;
 	margin-left: 0;
-	width: 100%;
+	width: 4.76rem;
+	float: right;
 }
 .phone .ad-content h2{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-size: 14px;
-	margin-top: .26rem;
-	margin-top: .22rem; 
+	transform: translateX(1rem);
+	transition: all .8s cubic-bezier(.21,.97,.78,1.32)
+}
+.phone .ad-content h2.active{
+	transform: translateX(0rem);
 }
 .phone .ad-content .text{
 	font-size: 14px;
 	line-height: .38rem;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 0 .3rem;
+	transform: translateX(1rem);
+	transition: all .8s .2s cubic-bezier(.21,.97,.78,1.32)
+}
+.phone .ad-content .text.active{
+	transform: translateX(0rem);
 }
 .advan-title{
 	text-align: center;
@@ -645,6 +730,7 @@
 }
 .advantage .base-title{
 	margin-top: .2rem;
+	margin-bottom: 0;
 }
 .phone .advantage .base-title{
 	margin-top: 0;
@@ -1000,8 +1086,12 @@ body .bottom2top.scroll.active>li{
 /*$zjq*/
 .container {
   display: block;
-  width: 240px;
-  height: 240px;
+  width: 120px;
+  height: 120px;
+}
+.pc .container{
+	width: 100%;
+	height: auto;
 }
 
 @-webkit-keyframes rotate {
@@ -1041,12 +1131,16 @@ body .bottom2top.scroll.active>li{
   width: 151px;
   height: 151px;
 }
-.ad-cube{
+.phone .ad-cube{
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	margin: auto;
+}
+.pc .ad-cube{
+	left: 1.1rem;
+	top: .4rem;
 }
 .sides {
   

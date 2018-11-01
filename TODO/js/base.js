@@ -81,7 +81,6 @@ if(undefined == window.lan){ // 如果不存在参数，那么查询cookie
         }
     }
 }
-console.log(window.lan,lanCookie)
 
 $(document).ready(function(){
 
