@@ -208,7 +208,7 @@
 								</div>	
 								<div class="ad-content">
 									<h2 class="scroll"><?=$lan['advantage_list1_h2']?></h2>
-									<p class="text scroll"><?=$lan['advantage_list1_p']?></p>
+									<p style="<?=$language=='en'?'':'text-align: center;'?>" class="text scroll"><?=$lan['advantage_list1_p']?></p>
 								</div>
 							</li>
 						</div>
@@ -227,7 +227,7 @@
 								</div>	
 								<div class="ad-content">
 									<h2 class="scroll"><?=$lan['advantage_list2_h2']?></h2>
-									<p class="text scroll"><?=$lan['advantage_list2_p']?></p>
+									<p style="<?=$language=='en'?'':'text-align: center;'?>" class="text scroll"><?=$lan['advantage_list2_p']?></p>
 								</div>
 							</li>
 							<li class="icon-box-wrap border-left clearfix">
@@ -244,7 +244,7 @@
 								</div>	
 								<div class="ad-content">
 									<h2 class="scroll"><?=$lan['advantage_list3_h2']?></h2>
-									<p class="text scroll"><?=$lan['advantage_list3_p']?></p>
+									<p style="<?=$language=='en'?'':'text-align: center;'?>" class="text scroll"><?=$lan['advantage_list3_p']?></p>
 								</div>
 							</li>
 						</div>
