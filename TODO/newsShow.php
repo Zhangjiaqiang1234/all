@@ -35,6 +35,13 @@
 				<span class="date">2018-10-16&nbsp;&nbsp;17:10<div class="line"></div></span>
 			</div>
 		</div>
+		<!-- 移动端标题 -->
+		<div class="phone-show-page-title">
+			<div class="time">
+				<span class="date"><div class="line"><div class="point"></div></div><span class="text"></span><div class="line"><div class="point"></div></div></span>
+			</div>
+			<h2></h2>
+		</div>
 		<!-- 内容开始 -->
 		<div class="news-show-content">
 			

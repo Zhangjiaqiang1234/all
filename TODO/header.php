@@ -13,14 +13,12 @@
 			<li class="jump"><a href="javascript:;"><?=$lan['business_sector']?></a></li>
 			<li class="jump"><a href="javascript:;"><?=$lan['advantage']?></a></li>
 			<li class="jump"><a href="javascript:;"><?=$lan['partner']?></a></li>
-			<li><a href="news.php"><?=$lan['news']?></a></li>
 			<li><a href="jobList.php"><?=$lan['join_us']?></a></li>
 			<li class="lan"><a href="javascript:;"><img src="img/<?=$language=='en'?'EN':'CN'?>.svg"><span><?=$language=='en'?'EN':'CN'?></span></a></li>
 		</ul>
 	<?php }else{?>
 		<ul class="pc-nav-list">
 			<li ><a href="index.php"><?=$lan['home_page']?></a></li>
-			<li class="<?=$nav[1]?'active':''?>"><a href="news.php"><?=$lan['news']?></a></li>
 			<li class="<?=$nav[2]?'active':''?>"><a href="jobList.php"><?=$lan['join_us']?></a></li>
 			<li class="lan"><a href="javascript:;"><img src="img/<?=$language=='en'?'EN':'CN'?>.svg"><span><?=$language=='en'?'EN':'CN'?></span></a></li>
 		</ul>
@@ -38,13 +36,11 @@
 			<li class="jump"><a href="javascript:;"><?=$lan['business_sector']?></a></li>
 			<li class="jump"><a href="javascript:;"><?=$lan['advantage']?></a></li>
 			<li class="jump"><a href="javascript:;"><?=$lan['partner']?></a></li>
-			<li><a href="news.php"><?=$lan['news']?></a></li>
 			<li><a href="jobList.php"><?=$lan['join_us']?></a></li>
 		</ul>
 	<?php }else{?>
 		<ul class="phone-nav-list">
 			<li ><a href="index.php"><?=$lan['home_page']?></a></li>
-			<li class="<?=$nav[1]?'active':''?>"><a href="news.php"><?=$lan['news']?></a></li>
 			<li class="<?=$nav[2]?'active':''?>"><a href="jobList.php"><?=$lan['join_us']?></a></li>
 		</ul>
 	<?php }?>

@@ -448,7 +448,7 @@
 
 
 		<!-- 新闻资讯开始 -->
-		<div class="news base-wrap">
+		<div style="display: none;" class="news base-wrap">
 			<a class="news-seemore" href="news.php"><?=$lan['see_more']?>>></a>
 			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>5.png"></img>
 			<ul class="news-list pc">
