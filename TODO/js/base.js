@@ -55,8 +55,8 @@ window.baseJs = { // 封装部分方法
 
         return currentdate;
     },
-    baseUrl : 'http://todoblock.io:8080',
-    imageUrl:'http://todoblock.io:8080'
+    baseUrl : 'http://manager.todoblock.io',
+    imageUrl:'http://manager.todoblock.io'
 };
 
 window.lan = window.baseJs._getQueryString('lan'),

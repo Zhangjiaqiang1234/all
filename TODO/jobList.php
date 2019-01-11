@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>新闻资讯</title>
+	<title>加入我们</title>
 	<?php include 'baseMeta.php';?>
 	<link rel="stylesheet" type="text/css" href="css/jobList.css">
 </head>
