@@ -467,6 +467,6 @@
 	<?php include 'footer.php';?>
 
 <script src="js/bodymovin.min.js"></script>
-<script src="js/index.js?v=2"></script>
+<script src="js/index2.js?v=2"></script>
 </body>
 </html>

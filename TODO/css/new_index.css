@@ -1,0 +1,490 @@
+.pc body{
+	padding-top: 0;
+}
+.phone body{
+	padding-top: 0.9rem;
+}
+/*新版PC端banner开始*/
+.new-pc-banner{
+	display: none;
+	width: 100%;
+	height: 6.5rem;
+	background-image: url('../img/new_banner_bg.png');
+	background-size: 19.2rem 6.5rem;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	z-index: 51;
+}
+.pc .new-pc-banner{
+	display: block;
+}
+.new-pc-banner-con{
+	width: 7.6rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.new-pc-banner-con .logo {
+    position: absolute;
+    top: 2.38rem;
+    left: .4rem;
+    width: 2rem;
+    height: .54rem;
+    z-index: 4;
+}
+.new-pc-banner-con .text {
+    position: absolute;
+    top: 3.05rem;
+    left: .4rem;
+    width: auto;
+    height: .34rem;
+    color: #535353;
+    font-size: 22px;
+    z-index: 4;
+}
+
+/*新版移动端banner开始*/
+.new-phone-banner{
+	padding-top: 1px;
+	display: none;
+	width: 100%;
+	height: 4.5rem;
+	background-image: url('../img/new_banner_bg.png');
+	background-size: auto 4.5rem;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+}
+.phone .new-phone-banner{
+	display: block;
+}
+.new-phone-banner .logo-box .logo {
+    margin-top: 1.07rem;
+    margin-left: .64rem;
+    display: block;
+    width: 1.27rem;
+    height: .67rem;
+    background: url(../img/nav-logo.svg) no-repeat;
+    background-size: 100% auto;
+}
+.new-phone-banner .text {
+    margin-top: .06rem;
+    margin-left: .64rem;
+    font-size: 14px;
+    color: #535353;
+}
+
+.about{
+	margin-top: .5rem;
+}
+.phone .about.base-wrap{
+	margin-bottom: .5rem;
+}
+.phone .about{
+	margin-top: 1rem;
+}
+
+/*新的业务板块*/
+.pc-bg-gray{
+	position: relative;
+}
+.phone-bg-gray{
+	position: relative;
+}
+.pc .pc-bg-gray:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 30rem;
+	height: 100%;
+	left: -15rem;
+	top: 0;
+	background: #F2F2F1;
+	z-index: -1;
+}
+.phone .phone-bg-gray:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 30rem;
+	height: 100%;
+	left: -15rem;
+	top: 0;
+	background: #F2F2F1;
+	z-index: -1;
+}
+.content{
+	position: relative;
+	padding-top: 1px;
+}
+.phone .content{
+	box-sizing: border-box;
+	padding: 0 .35rem;
+}
+.con-title{
+	text-align: center;
+	color: #393939;
+	font-size: 16px;
+	margin-top: .15rem;
+	margin-bottom: .25rem;
+}
+.phone .con-title{
+	font-size: 14px;
+	margin-top: .35rem;
+	margin-bottom: .5rem;
+}
+.content-1{
+	padding-bottom: .3rem;
+	margin-bottom: 0;
+}
+.phone .content-1{
+	margin-bottom: 0;
+}
+.phone .content-1{
+	padding-bottom: 1px;
+}
+.content-1 .base-title{
+	padding-top: .48rem;
+	margin-bottom: .4rem;
+}
+.content .text{
+	color: #535353;
+	font-size: 14px;
+	line-height: .24rem;
+	word-break: break-all;
+}
+.phone .content .text{
+	font-size: 13px;
+	line-height: .4rem;
+}
+/*645 212*/
+.content-1-logo{
+	width: 6.4rem;
+	height: 2.12rem;
+	margin: .2rem auto .3rem;
+	overflow: hidden;
+}
+.phone .content-1-logo{
+	margin-top: 0;
+	margin-bottom: .47rem;
+}
+.content-1-logo>*{
+	height: 100%;
+	float: left;
+}
+.content-1-logo .left{
+	width: 2.84rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin-top: .61rem;
+}
+.content-1-logo .left li{
+	width: .9rem;
+	height: .9rem;
+	box-sizing: border-box;
+}
+.content-1-logo .left li img{
+	display: block;
+	width: 100%;
+}
+/*284 180 176*/
+.content-1-logo .mid{
+	width: 1.8rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content-1-logo .mid .line{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: .2rem;
+	height: 1px;
+	background: #457FB4;
+}
+.content-1-logo .mid .line:nth-of-type(1){
+	left: 0;
+}
+.content-1-logo .mid .line:nth-of-type(2){
+	right: 0;
+}
+.content-1-logo .mid img{
+	display: block;
+	width: 1.4rem;
+}
+.content-1-logo .right{
+	width: 1.76rem;
+	position: relative;
+}
+.content-1-logo .right .ver-line{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	height: 1.6rem;
+	background: #457FB3;
+	margin: auto;
+}
+.content-1-logo .right li{
+	box-sizing: border-box;
+	width: 1.28rem;
+	height: .5rem;
+	border: 1px solid #4680B3;
+	position: relative;
+	margin-bottom: .04rem;
+	margin-left: .48rem;
+}
+.content-1-logo .right li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content-1-logo .right li .line{
+	position: absolute;
+	width: .49rem;
+	height: 1px;
+	background: #4680B3;
+	left: -.49rem;
+	top:0;
+	bottom: 0;
+	margin: auto;
+}
+.content-1-1{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: .35rem;
+}
+.content-1-1 .text{
+	width: 3.84rem;
+	height: auto;
+}
+.con-brank{
+	width: 3.5rem;
+	height: 2.1rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.con-brank .row{
+	display: flex;
+	justify-content: space-around;
+}
+.con-brank .row>div{
+	width: 1rem;
+	height: .35rem;
+}
+.con-brank img{
+	display: block;
+	width: 100%;
+	max-height: 100%;
+}
+.phone .content-1-1{
+	display: block;
+}
+.phone .content-1-1 .text{
+	width: 100%;
+	margin-top: .86rem;
+}
+.phone .con-brank{
+	width: 100%;
+	height: 3.72rem;
+	margin-top:.47rem;	
+}
+.con-brank .row>div{
+	width: 1.99rem;
+	height: .66rem;
+}
+/*虚线组件*/
+.dash-line{
+	position: relative;
+	width: 2.08rem;
+	height: 1.6rem;
+	margin: .28rem auto;
+}
+.dash-line.reverse{
+	transform: rotateY(180deg);
+}
+.dash-line:before{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: .68rem;
+	border-bottom: 2px dashed #706F6F;
+	border-right: 2px dashed #706F6F;
+	border-radius: 0 0 .26rem 0/0 0 .26rem 0;
+}
+.dash-line:after{
+	display: block;
+	content: '';
+	position: absolute;
+	top: .68rem;
+	left: 0;
+	width: 50%;
+	height: 1rem;
+	border-left: 2px dashed #706F6F;
+	border-top: 2px dashed #706F6F;
+	border-radius: .26rem 0 0 0/.26rem 0 0 0;
+}
+.content-2{
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row-reverse;
+}
+.content-3{
+	flex-direction:row;
+}
+.content-2 .text{
+	width: 4.6rem;
+}
+.content-2 .con-brank{
+	width: 2.84rem;
+	height: 1.46rem;
+}
+.phone .content-2 .con-brank{
+	width: 6.6rem;
+	height: 3.36rem;
+	background: none;
+	padding-bottom: .4rem;
+}
+.content-2 .con-brank .row>div{
+	border:none;
+	width: .7rem;
+	height: .7rem;
+}
+.phone .content-2 .con-brank .row>div{
+	border:none;
+	width: 1.6rem;
+	height: 1.6rem;
+}
+.phone .content-2{
+	display: block;
+}
+.phone .content-2 .text{
+	width: 100%;
+}
+.phone .con-title.not-margin{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: .35rem;
+    padding-bottom: .5rem;
+}
+.content-3 .con-brank{
+	width: 2.6rem;
+	height: 1.72rem;
+}
+.phone .content-3 .con-brank{
+	display: flex;
+	width: 100%;
+	height: 1.36rem;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.content-3 .con-brank .row>div{
+	width: .84rem;
+	height: .84rem;
+	border:1px solid #768EA2;
+	box-sizing: border-box;
+}
+.phone .content-3 .hidden{
+	display: none;
+}
+.phone .content-3 .con-brank .row>div{
+	width: 1.36rem;
+	height: 1.36rem;
+}
+.phone .content-4{
+	padding-bottom: .75rem;
+}
+.con4-brand{
+	margin-top: .25rem;
+	background: #fff;
+	width: 7.6rem;
+	height: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: .04rem 0;
+}
+.phone .con4-brand{
+	width: 100%;
+}
+.con4-brand li{
+	float: left;
+	box-sizing: border-box;
+	width: 33.33333%;
+	height: .7rem;
+	border-right:1px dashed #757574;
+	border-bottom:1px dashed #757574;
+	overflow: hidden;
+}
+.phone .con4-brand li img{
+	display: block;
+	width: 100%;
+	max-height: 100%;
+}
+.con4-brand li:nth-of-type(1),
+.con4-brand li:nth-of-type(2),
+.con4-brand li:nth-of-type(3){
+	border-top: 1px dashed #757574;
+}
+.con4-brand li:nth-of-type(3n){
+	border-right: none;
+}
+.phone .con4-brand li{
+	width: 50%;
+	height: .9rem;
+	border: none;
+	border-right:1px dashed #757574;
+	border-bottom:1px dashed #757574;
+}
+.phone .con4-brand li:nth-of-type(2n){
+	border-right: none;
+}
+.con4-brand li:nth-of-type(1),
+.con4-brand li:nth-of-type(2){
+	border-top: 1px dashed #757574;
+}
+
+/*pc端我们的优势*/
+.new-pc-advantage{
+	padding-top: .6rem;
+	padding-bottom: .2rem;
+	display: none;
+}
+.pc .new-pc-advantage{
+	display: block;
+}
+.pc .new-pc-advantage .new-ad-con li:hover{
+	color: #124C82;
+}
+.new-ad-con{
+	margin-top: .5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.new-ad-con li{
+	width: 33.33333%;
+}
+.new-ad-con .icon-box{
+	margin: 0 auto;
+}
+.new-ad-con h2{
+	margin-top: .43rem;
+	margin-bottom: .2rem;
+	text-align: center;
+}
+.cooper .base-title{
+	margin-top: .5rem;
+}
+.pc .advantage{
+	display: none;
+}

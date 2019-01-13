@@ -123,14 +123,16 @@ $(document).ready(function(){
 
     // 点击导航锚点自动跳转
     var jump,navList;
+    var jumpStr = 'pc-jump-pos';
     if(window.pc === true){
         jump = $('.pc .pc-nav-list .jump');
     }else{
         jump = $('.phone .phone-nav-list .jump');
+        jumpStr = 'phone-jump-pos';
     }
     // 获取目的位置数组
     var jumpArr = [];
-    $('.jump-pos').each(function(index,el){
+    $('.'+jumpStr).each(function(index,el){
         jumpArr.push($(this).offset().top);
     })
 
