@@ -213,7 +213,7 @@
 		<!-- 项目孵化 -->
 		<div class="content content-4 pc-bg-gray">
 			<h2 class="con-title not-margin">4.项目孵化</h2>
-			<p class="text">TODO拥有专业的区块链人才团队，为区块链初创项目提供行业全方位服务，包括对项目团队进行经济与业务模式的设计辅导、战略梳理规划、区块链技术支持、资本和交易所对接、全球合法合规化、媒体宣传、市场推广、法律咨询等服务。<br/><br/>>>成功参与服务的案例：ETZ  VECTORAIC  FPRBES  BDD交易所 CARLIFE  GELOS</p>
+			<p class="text">TODO拥有专业的区块链人才团队，为区块链初创项目提供行业全方位服务，包括对项目团队进行经济与业务模式的设计辅导、战略梳理规划、区块链技术支持、资本和交易所对接、全球合法合规化、媒体宣传、市场推广、法律咨询等服务。<br/><br/>>>成功参与服务的案例：ETZ  VECTORAIC  FGFX  BDD交易所 CARLIFE  GELOS</p>
 			<ul class="con4-brand">
 				<li><img src="img/fuhua/1.png"></li>
 				<li><img src="img/fuhua/2.png"></li>
