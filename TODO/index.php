@@ -96,7 +96,7 @@
 		<div class="content clear content-1 pc-bg-gray phone-bg-gray base-wrap pc-jump-pos phone-jump-pos">
 			<img class="base-title" src="img/sm-title/<?=$language=='en'?'en':'cn'?>2.png"></img>
 			<h2 class="con-title">1.TODO媒体矩阵</h2>
-			<p class="text">TODO MEDIA 旗下包含区块链生态媒体矩阵：TODO情报局，分秒区块链，区块链见闻，无心日志，VV评级，空投大师，币值瞭望，区块链Hunter等多家排名前100区块链垂直媒体，自媒体。TODO MEDIA为行业输出大量优质内容，资讯推动行业良性发展的同事，采用媒体+社区的运营模式汇聚200万+的流量为项目服务提供了强有力的市场流量支撑。同事我们服务还可以覆盖全球各个国家地区的区块链媒体</p>
+			<p class="text">TODO MEDIA 旗下包含区块链生态媒体矩阵：TODO情报局，分秒区块链，区块链见闻，无心日志，VV评级，空投大师，币值瞭望，区块链Hunter等多家排名前100区块链垂直媒体，自媒体。TODO MEDIA为行业输出大量优质内容，资讯推动行业良性发展的同时，采用媒体+社区的运营模式汇聚200万+的流量为项目服务提供了强有力的市场流量支撑。同时我们服务还可以覆盖全球各个国家地区的区块链媒体</p>
 			<!-- logo区域 -->
 			<div class="content-1-logo">
 				<ul class="left">
@@ -192,7 +192,7 @@
 		<!-- 项目市值管理 -->
 		<h2 class="con-title not-margin">3.项目市值管理</h2>
 		<div class="content content-2 content-3 ">
-			<p class="text">TODO是一家区块链服务商，专门助力与解决区块链企业发展中运营难题。市值管理运用市场营销以及资本市场组合拳法，最大化项目的市值。同事我们拥有经验风骨的TOKEN市值管理以及流通性管理操盘手，我们可以根据具体项目需求，定制专业专属的市值管理方案。<br/>部分参与并且服务过的项目：ETZ  SKM  GSE  ETZ ONERPOOT</p>
+			<p class="text">TODO是一家区块链服务商，专门助力与解决区块链企业发展中运营难题。市值管理运用市场营销以及资本市场组合拳法，最大化项目的市值。同时我们拥有经验风骨的TOKEN市值管理以及流通性管理操盘手，我们可以根据具体项目需求，定制专业专属的市值管理方案。<br/>部分参与并且服务过的项目：ETZ  SKM  GSE  ETZ ONERPOOT</p>
 			<div class="con-brank">
 				<div class="row">
 					<div><img src="img/manager/1.png"></div>
