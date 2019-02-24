@@ -96,9 +96,10 @@
 	content: '';
 	display: block;
 	position: absolute;
-	width: 30rem;
+	width: 99vw;
 	height: 100%;
-	left: -15rem;
+	left: -24.5vw;
+	box-sizing: border-box;
 	top: 0;
 	background: #F2F2F1;
 	z-index: -1;
@@ -107,9 +108,10 @@
 	content: '';
 	display: block;
 	position: absolute;
-	width: 30rem;
+	width: 99vw;
 	height: 100%;
-	left: -15rem;
+	left: -24.5vw;
+	box-sizing: border-box;
 	top: 0;
 	background: #F2F2F1;
 	z-index: -1;
